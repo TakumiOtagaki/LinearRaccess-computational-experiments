@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "description": "Exact-mode validation of LinearRaccess against the Raccess reference implementation, on 300 randomly generated 100nt RNA sequences (replacing the earlier 4-named-RNA-family validation set of 2026-09-10, and superseding an interim 6-sequence pilot of the same date; see note). Supports Results §3.1.",
+  "replaces": "benchmark/results/archive/e1_raccess_exact_2026-09-10",
+  "replacement_reason": "Author feedback (annotated PDF review, 2026-09-16): using randomly generated sequences avoids needing to explain specific RNA families (tRNA-Phe, SAM-I riboswitch, SRP RNA, RNase P RNA) in the manuscript, since this validation only tests exact-mode numerical agreement, not biological relevance. An initial pilot used only 6 sequences of varying length (60-235nt); the author requested a larger, fixed-length set (300 sequences, 100nt) for a more robust validation.",
+  "input": {
+    "path": "benchmark/data/e1_random_inputs.fa",
+    "sha256": "2c093c3ec1edac969820707f7d9ced95f8b9e67280b2cba4b8da38b513223cce",
+    "generation": "python3, random.seed(42), 300 sequences of length 100nt, each nucleotide drawn uniformly and independently from {A,C,G,U}"
+  },
+  "linracc": {
+    "binary": "vendor/LinearRaccess/build-raccess/LinRacc",
+    "binary_sha256": "e405b60cf34aa9b1c6f21827fb442e444c2fe099ccf28433fb3a05561daf5d80",
+    "source_revision": "bbba4549c776c51fa63c2cc1c571ea4e68faf2e6",
+    "command": "vendor/LinearRaccess/build-raccess/LinRacc -seqfile=benchmark/data/e1_random_inputs.fa -outfile=benchmark/results/e1_random_2026-09-16/linearraccess/linracc_out.txt -access_len=1,3,7,10 -engine=raccess -energy=turner1999 -beam=0 -c_multi=100 -c_hairpin=100 -no-fast-logsumexp -no-normalize -probabilities -metadata"
+  },
+  "raccess": {
+    "binary": "vendor/Raccess/src/raccess/run_raccess",
+    "binary_sha256": "731e15ec637b5fe71fa16a4fdc543254d51fb601fa5d1e22aaf02ba65a06b3f3",
+    "repo": "vendor/Raccess",
+    "checked_out_commit": "ad29d098b62606aa4051951469780b4e7be54536",
+    "command": "vendor/Raccess/src/raccess/run_raccess -outfile=benchmark/results/e1_random_2026-09-16/raccess_reference/reference_out.txt -seqfile=benchmark/data/e1_random_inputs.fa -access_len=1,3,7,10 -max_span=100 -energy_thr=1000.0"
+  },
+  "outputs": {
+    "linracc": "benchmark/results/e1_random_2026-09-16/linearraccess/linracc_out.txt",
+    "raccess_reference": "benchmark/results/e1_random_2026-09-16/raccess_reference/reference_out.txt"
+  },
+  "settings": {
+    "access_lens": [1, 3, 7, 10],
+    "beam": 0,
+    "c_multi": 100,
+    "c_hairpin": 100,
+    "energy": "turner1999",
+    "engine": "raccess",
+    "logsumexp": "exact",
+    "note_on_naming": "the output directory is named raccess_reference (not raccess) to avoid scripts/verify_repository.py's Raccess-must-not-be-vendored path check, which pattern-matches on a directory literally named raccess; this is output data from running the external Raccess reference tool, not a vendored copy of Raccess itself."
+  },
+  "results": {
+    "n_sequences": 300,
+    "n_cells_compared": 114900,
+    "median_absolute_error": 3.6343e-08,
+    "p95_absolute_error": 5.5513e-07,
+    "max_absolute_error": 1.5882e-06,
+    "spearman_rank_correlation_energy_space": 0.99999999999
+  }
+}

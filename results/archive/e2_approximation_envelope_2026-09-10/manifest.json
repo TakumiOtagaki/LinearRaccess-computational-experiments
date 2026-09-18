@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "e2-approximation-envelope",
+  "description": "E2: Production approximation envelope - beam, loop caps, log-sum-exp variations against full-span reference",
+  "source": {
+    "path": "../data/e1_raccess_inputs.fa",
+    "file_sha256": "954c28cc4bed8db88ac441f994a2b6be0e55f6bdb21816c69581621d14f1fa44",
+    "records": [
+      {"id": "M10263_trna_phe", "length": 76, "sequence_sha256": "28890de0dd2033379fabebc7165a219d6092ad9bbadc77f4c7528be78963ca0b"},
+      {"id": "4KQY_A_sam1_riboswitch", "length": 130, "sequence_sha256": "0026e1401f4b0a24373d905ed975f40c2ff4d5bfa285d0bebbb4065401abb3f6"},
+      {"id": "HG323429_srp_rna", "length": 206, "sequence_sha256": "893f2d0446306e3da4b3e3697d2a4099d5a01d9b9bb8a28ba128cd74ba7c95a1"},
+      {"id": "7UO1_B_rnase_p_rna", "length": 207, "sequence_sha256": "e1d2e2daa6bb7a9d5c3fd7b1bc7ddc549d129d78567ba86cc5437500f7ba38ac"}
+    ]
+  },
+  "access_lens": [1, 3, 7, 10],
+  "reference": {
+    "id": "reference-exact",
+    "family": "reference",
+    "engine": "lincapr",
+    "energy": "turner2004",
+    "beam": 0,
+    "c_multi": "sequence_length",
+    "c_hairpin": "sequence_length",
+    "fast_logsumexp": false,
+    "normalize_profiles": false
+  },
+  "configurations": [
+    {"id": "beam-20", "family": "beam", "engine": "lincapr", "energy": "turner2004", "beam": 20, "c_multi": "sequence_length", "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "beam-50", "family": "beam", "engine": "lincapr", "energy": "turner2004", "beam": 50, "c_multi": "sequence_length", "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "beam-100", "family": "beam", "engine": "lincapr", "energy": "turner2004", "beam": 100, "c_multi": "sequence_length", "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "beam-200", "family": "beam", "engine": "lincapr", "energy": "turner2004", "beam": 200, "c_multi": "sequence_length", "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "c-multi-10", "family": "c_multi", "engine": "lincapr", "energy": "turner2004", "beam": 0, "c_multi": 10, "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "c-multi-30", "family": "c_multi", "engine": "lincapr", "energy": "turner2004", "beam": 0, "c_multi": 30, "c_hairpin": "sequence_length", "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "c-hairpin-10", "family": "c_hairpin", "engine": "lincapr", "energy": "turner2004", "beam": 0, "c_multi": "sequence_length", "c_hairpin": 10, "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "c-hairpin-30", "family": "c_hairpin", "engine": "lincapr", "energy": "turner2004", "beam": 0, "c_multi": "sequence_length", "c_hairpin": 30, "fast_logsumexp": false, "normalize_profiles": false},
+    {"id": "fast-logsumexp", "family": "logsumexp", "engine": "lincapr", "energy": "turner2004", "beam": 0, "c_multi": "sequence_length", "c_hairpin": "sequence_length", "fast_logsumexp": true, "normalize_profiles": false},
+    {"id": "production-defaults", "family": "combined", "engine": "lincapr", "energy": "turner2004", "beam": 200, "c_multi": 30, "c_hairpin": 30, "fast_logsumexp": true, "normalize_profiles": false}
+  ],
+  "relative_error_floor": 1e-8,
+  "invariant_tolerance": 1e-10
+}

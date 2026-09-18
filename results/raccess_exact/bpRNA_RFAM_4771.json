@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_RFAM_4771",
+  "seq_length": 381,
+  "method": "raccess-exact",
+  "max_span": 381,
+  "elapsed_sec": 1.17,
+  "memory_kb": 19580,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

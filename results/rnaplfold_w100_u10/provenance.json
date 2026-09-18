@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "RNAplfold accuracy comparison against Raccess Exact, on the same 12,872 bpRNA sequences (100-1,000nt) and window lengths w in {1,3,7,10} used for Table 1 and Figure 2. Supports Results §3.2's RNAplfold column in Table 1: RNAplfold computes the same conceptual quantity (window-unpaired probability) via local sliding-window folding averaged over every window containing the region, a different algorithm from Raccess Window's single global ensemble with a span cutoff.",
+  "tool": {
+    "name": "RNAplfold",
+    "package": "ViennaRNA",
+    "version": "2.7.2",
+    "source": "module load ViennaRNA/2.7.2 (HPC module system; not vendored in this repository)",
+    "binary_path_at_runtime": "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold"
+  },
+  "input": {
+    "path": "benchmark/data/bprna_100_1000.fa",
+    "description": "The same 12,872-sequence subset of bpRNA_1m_90_filtered_clean.fa used throughout Table 1 and Figure 2, extracted by sequence ID from benchmark/data/bprna_100_1000_list.txt."
+  },
+  "command_template": "RNAplfold -W 100 -L 100 -u 10 < <chunk_of_bprna_100_1000.fa>",
+  "settings": {
+    "winsize_W": 100,
+    "span_L": 100,
+    "ulength_u": 10,
+    "note_on_settings": "W=100 and L=100 match Raccess Window's W=100 span limit; u=10 matches the paper's longest tested window length (w in {1,3,7,10})."
+  },
+  "execution": {
+    "method": "Split the 12,872-sequence FASTA into 16 chunks and ran RNAplfold once per chunk (it natively accepts multi-FASTA input via stdin, emitting one <seq_id>_lunp file per record), in parallel background processes on a single interactive node rather than through qsub.",
+    "reason_not_qsub": "qsub array-job submission of this repository's benchmark scripts has a known, unresolved, repo-external permission failure on this cluster (see docs/todo_p0_p1_20260915.md); the established workaround is to run directly instead of through qsub. RNAplfold's per-sequence cost is low enough (~0.3s/seq at these settings) that a direct 16-way parallel run on one node completed the full 12,872-sequence set in a few minutes.",
+    "script": "benchmark/scripts/uge/rnaplfold_comparison.sh (invoked directly per chunk with TASK_ID set manually, not via qsub)"
+  },
+  "outputs": {
+    "lunp_files": "benchmark/results/rnaplfold_w100_u10/lunp/ (12,872 files, gitignored as regenerable raw output)",
+    "parsed_comparison": "benchmark/scripts/rnaplfold_compare.py reads the _lunp files and benchmark/results/bprna_accuracy_comparison/exact/ (already-frozen Raccess Exact evidence, reused unchanged) and writes summary.json"
+  },
+  "lunp_format_note": "Each _lunp row i (1-indexed), column l gives the probability that positions [i-l+1, i] (1-indexed, inclusive) are all unpaired. Converted to this repository's 0-indexed start-anchored (start, length) convention as start_0idx = i - l to match parse_raccess/parse_linracc's shape.",
+  "n_sequences": 12872,
+  "n_missing_sequences": 0,
+  "n_cells_compared": 9399684,
+  "results_median_absolute_error_by_bin": {
+    "100-300": 2.431e-02,
+    "300-500": 3.361e-02,
+    "500-700": 4.597e-02,
+    "700-1000": 5.016e-02,
+    "overall": 2.870e-02
+  }
+}

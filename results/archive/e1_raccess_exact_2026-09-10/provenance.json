@@ -1,0 +1,70 @@
+{
+  "access_lens": [
+    1,
+    3,
+    7,
+    10
+  ],
+  "bundle": "benchmark/results/e1_raccess_exact_2026-09-10",
+  "hardware": {
+    "hostname": "r15n6",
+    "machine": "x86_64",
+    "platform": "Linux-5.14.0-687.41.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "processor": "x86_64",
+    "python": "3.9.25 (main, Mar 26 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]"
+  },
+  "input": {
+    "path": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/benchmark/data/e1_raccess_inputs.fa",
+    "records": [
+      {
+        "id": "M10263_trna_phe",
+        "length": 76
+      },
+      {
+        "id": "4KQY_A_sam1_riboswitch",
+        "length": 130
+      },
+      {
+        "id": "HG323429_srp_rna",
+        "length": 206
+      },
+      {
+        "id": "7UO1_B_rnase_p_rna",
+        "length": 207
+      }
+    ],
+    "sha256": "954c28cc4bed8db88ac441f994a2b6be0e55f6bdb21816c69581621d14f1fa44"
+  },
+  "linracc": {
+    "binary": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/LinearRaccess/build-raccess/LinRacc",
+    "binary_sha256": "2d704ae1d6aa4d0926ebf84378a3dcd8dcdef883cd051ebc9bd2ba1bfeebe756",
+    "command": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/LinearRaccess/build-raccess/LinRacc -seqfile=/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/benchmark/data/e1_raccess_inputs.fa -outfile=benchmark/results/e1_raccess_exact_2026-09-10/linearraccess/linracc_out.txt -access_len=1,3,7,10 -engine=raccess -energy=turner1999 -beam=0 -c_multi=207 -c_hairpin=207 -no-fast-logsumexp -no-normalize -probabilities -metadata -source-revision=51ed3c3c5cf20e61cf075d116903baaf98cf4790",
+    "source_revision": "51ed3c3c5cf20e61cf075d116903baaf98cf4790"
+  },
+  "outputs": {
+    "linracc": "benchmark/results/e1_raccess_exact_2026-09-10/linearraccess/linracc_out.txt",
+    "linracc_sha256": "4b3818485e20846e70e6367666ead8217d86d476a10a3747bd66e19ab7718ef9",
+    "raccess": "benchmark/results/e1_raccess_exact_2026-09-10/raccess/raccess_out.txt",
+    "raccess_sha256": "eb4a6b955a28bb7d16c016595e2fcbd2f443b1f9a745c39d0b5d5a21494a9b6a"
+  },
+  "raccess": {
+    "binary": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/Raccess/src/raccess/run_raccess",
+    "binary_sha256": "731e15ec637b5fe71fa16a4fdc543254d51fb601fa5d1e22aaf02ba65a06b3f3",
+    "checked_out_commit": "ad29d098b62606aa4051951469780b4e7be54536",
+    "command": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/Raccess/src/raccess/run_raccess -outfile=benchmark/results/e1_raccess_exact_2026-09-10/raccess/raccess_out.txt -seqfile=/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/benchmark/data/e1_raccess_inputs.fa -access_len=1,3,7,10 -max_span=207 -energy_thr=1000.0",
+    "commit": "ad29d098b62606aa4051951469780b4e7be54536",
+    "patch_note": "",
+    "repo": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/Raccess"
+  },
+  "schema_version": 1,
+  "settings": {
+    "beam": 0,
+    "energy": "turner1999",
+    "energy_thr": 1000.0,
+    "linracc_engine": "raccess",
+    "linracc_logsumexp": "exact",
+    "linracc_normalize": false,
+    "max_span": 207,
+    "raccess_definition": "max_span>=N, full-span exact Raccess reference"
+  }
+}

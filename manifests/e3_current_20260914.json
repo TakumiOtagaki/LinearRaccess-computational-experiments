@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "experiment_id": "e3-current-20260914",
+  "status": "prepared",
+  "description": "E3 current revision: NC_045512.2, beam 100, Turner2004, one warm-up and three measured repetitions.",
+  "source": {
+    "id": "nc_045512_2",
+    "name": "NC_045512.2 Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome",
+    "path": "../data/NC_045512.2.fa",
+    "origin": {
+      "database": "NCBI Nucleotide (nuccore)",
+      "accession_version": "NC_045512.2",
+      "retrieval": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_045512.2&rettype=fasta&retmode=text",
+        "date": "2026-09-06"
+      },
+      "original_file_sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e"
+    },
+    "normalization": {
+      "command": "strip FASTA header/whitespace, uppercase, replace T by U",
+      "length": 29903,
+      "sequence_sha256": "d221b74def202fe4a77e14ce8695bfa5cbc7d5056ce4c8a98dafee8c2e0ab344"
+    },
+    "length": 29903,
+    "file_sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e",
+    "sequence_sha256": "d221b74def202fe4a77e14ce8695bfa5cbc7d5056ce4c8a98dafee8c2e0ab344"
+  },
+  "access_lens": [
+    1,
+    3,
+    7,
+    10
+  ],
+  "configuration": {
+    "id": "long-default",
+    "engine": "lincapr",
+    "energy": "turner2004",
+    "beam": 100,
+    "c_multi": 30,
+    "c_hairpin": 30,
+    "fast_logsumexp": true,
+    "normalize_profiles": false
+  },
+  "tiers": {
+    "long": {
+      "lengths": [
+        1000,
+        2000,
+        4000,
+        8000,
+        16000,
+        29903
+      ],
+      "warmup_runs": 1,
+      "repetitions": 3
+    }
+  }
+}

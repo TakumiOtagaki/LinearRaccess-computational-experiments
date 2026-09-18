@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "description": "Relative error |P_approx - P_exact| / P_exact for LinearRaccess (beam=100) restricted to cells where the true (Raccess Exact) accessibility falls in a rare-event range -- Table 1/Fig. 2 only report absolute error, which is dominated by high-probability cells and says nothing about relative error where the true value is small. Supports Results \\S3.2.",
+  "reused_data": {
+    "exact_reference": "benchmark/results/bprna_accuracy_comparison/exact",
+    "linear_b100": "benchmark/results/bprna_accuracy_comparison/linear_b100",
+    "sequence_list": "benchmark/data/bprna_100_1000_list.txt"
+  },
+  "true_probability_range": [
+    1e-08,
+    1e-05
+  ],
+  "n_sequences": 12872
+}

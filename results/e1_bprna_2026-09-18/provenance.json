@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "description": "Item 17: exact-mode validation (Results \\S3.1) repeated on real bpRNA sequences instead of random ones, to check the random-sequence E1 result (benchmark/results/e1_random_2026-09-16) is not an artifact of uniform-composition synthetic sequences. 300 bpRNA-1m(90) sequences with length in [100,105]nt (sampled with random.seed(42) from 1,193 candidates in that range), same methodology as e1_random_2026-09-16 (beam=0, loop caps effectively unbounded, exact log-sum-exp, no profile normalization).",
+  "input": {
+    "id_list": "benchmark/data/e1_bprna_ids.txt",
+    "fasta": "benchmark/data/e1_bprna_inputs.fa",
+    "fasta_sha256": "0839ac982db512fa9b1ef7d42c7a895935a8a0c70276cf963587c06b014fc8d0",
+    "source_fasta": "benchmark/data/bpRNA_1m_90_filtered_clean.fa",
+    "selection": "300 of 1,193 sequences with 95<=length<=105nt from benchmark/data/bprna_100_1000_list.txt, sampled with Python random.seed(42); actual length range observed 100-105nt"
+  },
+  "linracc": {
+    "binary": "vendor/LinearRaccess/build-raccess/LinRacc",
+    "binary_sha256": "91ad9d077acba05272fcef5bdd4f23bc27a9dcdf370d2794d682d86cf663345e",
+    "source_revision": "59b692c71aebf3f4dcc7502bd1608da095d40a75",
+    "command": "vendor/LinearRaccess/build-raccess/LinRacc -seqfile=benchmark/data/e1_bprna_inputs.fa -outfile=benchmark/results/e1_bprna_2026-09-18/linearraccess/linracc_out.txt -access_len=1,3,7,10 -engine=raccess -energy=turner1999 -beam=0 -c_multi=105 -c_hairpin=105 -no-fast-logsumexp -no-normalize -probabilities -metadata"
+  },
+  "raccess": {
+    "binary": "vendor/raccess/src/raccess/run_raccess",
+    "binary_sha256": "fe30cdc9af57fb2c198cd778434b1c998c6f96f3a44abadd406fd879f003df2a",
+    "repo": "vendor/Raccess",
+    "checked_out_commit": "ad29d098b62606aa4051951469780b4e7be54536",
+    "command": "vendor/raccess/src/raccess/run_raccess -outfile=benchmark/results/e1_bprna_2026-09-18/raccess_reference/reference_out.txt -seqfile=benchmark/data/e1_bprna_inputs.fa -access_len=1,3,7,10 -max_span=105 -energy_thr=1000.0"
+  },
+  "settings": {
+    "access_lens": [1, 3, 7, 10],
+    "beam": 0,
+    "c_multi": 105,
+    "c_hairpin": 105,
+    "energy": "turner1999",
+    "engine": "raccess",
+    "logsumexp": "exact"
+  },
+  "results": {
+    "n_sequences": 300,
+    "n_cells_compared": 117732,
+    "median_absolute_error": 4.8269e-09,
+    "p95_absolute_error": 4.4098e-07,
+    "max_absolute_error": 1.5916e-06,
+    "spearman_rank_correlation_energy_space": 0.99999999737
+  },
+  "comparison_to_random_sequence_e1": {
+    "e1_random_2026-09-16": {"median_absolute_error": 3.6343e-08, "p95_absolute_error": 5.5513e-07, "max_absolute_error": 1.5882e-06},
+    "note": "Same order of magnitude as the random-sequence validation (this one is even slightly lower); confirms the exact-mode agreement is not an artifact of uniform-composition synthetic sequences."
+  }
+}

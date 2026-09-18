@@ -1,0 +1,38 @@
+{
+  "evidence_scope": "RNAplfold (-W 100 -L 100 -u 10, ViennaRNA 2.7.2) accuracy comparison against Raccess Exact, matching Table 1's 12,872 bpRNA sequences (100-1,000 nt) and window lengths w in {1,3,7,10}. RNAplfold computes the same accessibility quantity via a different algorithm: local sliding-window folding averaged over all windows containing the region, rather than Raccess's single global ensemble with a span cutoff.",
+  "settings": {
+    "winsize": 100,
+    "span": 100,
+    "ulength": 10,
+    "viennarna_version": "2.7.2"
+  },
+  "n_missing_sequences": 0,
+  "n_cells_compared": 9399684,
+  "by_bin": {
+    "100-300": {
+      "n_sequences": 11102,
+      "n_cells": 6377982,
+      "median_absolute_error": 0.024313755020786365
+    },
+    "300-500": {
+      "n_sequences": 1442,
+      "n_cells": 2105746,
+      "median_absolute_error": 0.03361159086681788
+    },
+    "500-700": {
+      "n_sequences": 190,
+      "n_cells": 438366,
+      "median_absolute_error": 0.045974983731959844
+    },
+    "700-1000": {
+      "n_sequences": 138,
+      "n_cells": 477590,
+      "median_absolute_error": 0.05015639466673831
+    }
+  },
+  "overall": {
+    "n_sequences": 12872,
+    "n_cells": 9399684,
+    "median_absolute_error": 0.028701474815371247
+  }
+}

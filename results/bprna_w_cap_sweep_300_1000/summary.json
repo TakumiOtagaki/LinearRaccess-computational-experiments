@@ -1,0 +1,27 @@
+{
+  "evidence_scope": "Item 11 (docs/review_triage_20260918_1440.md): accuracy of LinearRaccess against Raccess Exact at w in {1,3,7,10,20,30,50}, on the 1,770 bpRNA sequences 300-1,000nt, testing whether raising the loop caps (to 60) is sufficient on its own, or whether beam width must also increase. Supports Discussion and Supplementary S4.",
+  "n_cells_by_w": {"1": 762948, "3": 759408, "7": 752328, "10": 747018, "20": 729318, "30": 711618, "50": 676218},
+  "median_absolute_error_beam100_cap60_by_w": {
+    "1": 4.787e-03, "3": 1.725e-03, "7": 9.635e-05, "10": 1.070e-05,
+    "20": 1.011e-08, "30": 9.735e-12, "50": 9.837e-18,
+    "note": "Decreases monotonically with w; this reflects P_u itself shrinking toward 0 as w grows (same effect as the w=1-vs-w>1 absolute-error split in Supplementary S1), not by itself evidence of good relative accuracy."
+  },
+  "median_relative_error_by_w_and_method": {
+    "1": {"beam100_cap60": 5.665e-02, "beam200_cap60": 1.841e-03, "raccess_window_w100": 4.045e-01},
+    "3": {"beam100_cap60": 1.535e-01, "beam200_cap60": 5.226e-03, "raccess_window_w100": 7.002e-01},
+    "7": {"beam100_cap60": 3.330e-01, "beam200_cap60": 1.292e-02, "raccess_window_w100": 8.905e-01},
+    "10": {"beam100_cap60": 4.432e-01, "beam200_cap60": 1.914e-02, "raccess_window_w100": 9.347e-01},
+    "20": {"beam100_cap60": 6.753e-01, "beam200_cap60": 4.325e-02, "raccess_window_w100": 9.824e-01},
+    "30": {"beam100_cap60": 8.054e-01, "beam200_cap60": 7.467e-02, "raccess_window_w100": 9.955e-01},
+    "50": {"beam100_cap60": 9.265e-01, "beam200_cap60": 2.891e-01, "raccess_window_w100": 1.143e+00}
+  },
+  "beam100_to_200_improvement_factor_by_w": {
+    "1": 30.8, "3": 29.4, "7": 25.8, "10": 23.2, "20": 15.6, "30": 10.8, "50": 3.2,
+    "note": "Doubling the beam reduces median relative error far more than raising the cap alone did, but the improvement shrinks as w grows -- diminishing returns, not full convergence."
+  },
+  "fraction_of_cells_with_p_exact_ge_0.01_by_w": {
+    "1": 0.8022, "3": 0.5898, "7": 0.2498, "10": 0.1195, "20": 0.0116, "30": 0.0014, "50": 0.0001,
+    "note": "The true (Raccess Exact) accessibility itself is rarely large at large w: 80.2% of cells reach P_u>=0.01 at w=1, versus 0.01% at w=50. Consistent with the mechanistic explanation: a long completely-unpaired run has low Boltzmann weight (fewer base pairs) in the true ensemble too, and beam pruning disproportionately drops the already-rare states needed to track it as w grows."
+  },
+  "conclusion": "Raising loop caps alone (100/60 vs 100/30) is not enough to make LinearRaccess accurate at w approaching or exceeding the default cap; beam width is the binding constraint, and doubling it (100->200) cuts median relative error 3- to 31-fold depending on w. LinearRaccess remains substantially more accurate than Raccess Window at every tested w regardless of beam setting."
+}

@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_RNP_272",
+  "seq_length": 450,
+  "method": "raccess-exact",
+  "max_span": 450,
+  "elapsed_sec": 1.7,
+  "memory_kb": 24428,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

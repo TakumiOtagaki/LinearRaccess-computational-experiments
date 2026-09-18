@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_CRW_54618",
+  "seq_length": 561,
+  "method": "raccess-exact",
+  "max_span": 561,
+  "elapsed_sec": 2.96,
+  "memory_kb": 33696,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

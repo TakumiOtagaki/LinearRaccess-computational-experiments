@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "scheduler_smoke.json": "7e6e45735a73d22daced74cd0e616bf9d05320eb76cce99463c12132b5447785",
+    "smoke_input.fa": "1447ef3e133fadb124d36279863dffcfc3ebae5594cf86c53c7a5f54ac4089b1",
+    "summary.json": "058cc14bf49f3bb950c2d5d041e1733fff902c0a9df07b3ee9fe40c37ca642ba"
+  },
+  "core_and_cli_with_raccess": "passed",
+  "core_and_cli_without_raccess": "passed",
+  "embedded_clean_revision_after_incremental_build": "verified",
+  "production_runner_tests": 13,
+  "python_tests": 44,
+  "regression_before": "FAIL: hairpin cap must not omit bulge profile mass: got 0.000001, expected 0.004692",
+  "repository_wide_verifier": "Blocked by pre-existing Raccess output path false positive; dedicated source checkout verification passed",
+  "source_bundle_reconstruction": "verified",
+  "source_revision": "892c93c80f4081b5a30f27901e7c16c25cac2088"
+}

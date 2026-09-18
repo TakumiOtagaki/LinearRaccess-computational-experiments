@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_tmRNA_49",
+  "seq_length": 398,
+  "method": "raccess-exact",
+  "max_span": 398,
+  "elapsed_sec": 1.3,
+  "memory_kb": 18176,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

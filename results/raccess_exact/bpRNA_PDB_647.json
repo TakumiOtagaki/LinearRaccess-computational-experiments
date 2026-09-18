@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_PDB_647",
+  "seq_length": 418,
+  "method": "raccess-exact",
+  "max_span": 418,
+  "elapsed_sec": 1.36,
+  "memory_kb": 21556,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

@@ -1,0 +1,10 @@
+{
+  "evidence_scope": "Item 17: exact-mode validation on real bpRNA sequences (300, 100-105nt), confirming benchmark/results/e1_random_2026-09-16's random-sequence result generalizes to real RNA. Supports Results \\S3.1.",
+  "n_sequences": 300,
+  "n_cells_compared": 117732,
+  "median_absolute_error": 4.8269e-09,
+  "p95_absolute_error": 4.4098e-07,
+  "max_absolute_error": 1.5916e-06,
+  "spearman_rank_correlation_energy_space": 0.99999999737,
+  "conclusion": "Same order of magnitude as the random-sequence E1 validation (median even slightly lower here); real bpRNA sequences do not reveal any exact-mode discrepancy the random-sequence test missed."
+}

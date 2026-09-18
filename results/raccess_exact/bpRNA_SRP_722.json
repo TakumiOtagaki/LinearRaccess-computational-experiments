@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_SRP_722",
+  "seq_length": 525,
+  "method": "raccess-exact",
+  "max_span": 525,
+  "elapsed_sec": 2.62,
+  "memory_kb": 29092,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

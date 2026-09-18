@@ -1,0 +1,10 @@
+{
+  "evidence_scope": "Exact-mode validation supporting Results §3.1: with beam pruning disabled (beam=0), does LinearRaccess reproduce the Raccess reference implementation's accessibility values?",
+  "n_sequences": 300,
+  "n_cells_compared": 114900,
+  "median_absolute_error": 3.6343e-08,
+  "p95_absolute_error": 5.5513e-07,
+  "max_absolute_error": 1.5882e-06,
+  "spearman_rank_correlation_energy_space": 0.99999999999,
+  "conclusion": "LinearRaccess (beam=0, exact log-sum-exp) agrees with the Raccess reference to within ~1.6e-6 absolute probability error and near-perfect rank correlation on 300 randomly generated 100nt RNA sequences, confirming exact-mode correctness independent of any specific biological sequence family."
+}

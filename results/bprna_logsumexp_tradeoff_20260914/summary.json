@@ -1,0 +1,185 @@
+{
+  "completed": true,
+  "groups": {
+    "100-199": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 4,
+      "max_abs_probability_difference": 0.00017426706929613012,
+      "n": 4,
+      "speedup": {
+        "max": 1.1186887468037414,
+        "mean": 1.1108301435811008,
+        "median": 1.1110346272850307,
+        "min": 1.1025625729506,
+        "n": 4,
+        "p90": 1.1181019320466834,
+        "p95": 1.1183953394252124,
+        "p99": 1.1186300653280357,
+        "sum": 4.443320574324403
+      },
+      "windows": 2336
+    },
+    "1000-1999": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 76,
+      "max_abs_probability_difference": 0.0004443014247499377,
+      "n": 4,
+      "speedup": {
+        "max": 1.1296661237495094,
+        "mean": 1.1202741710715793,
+        "median": 1.1194597858170627,
+        "min": 1.1125109889026827,
+        "n": 4,
+        "p90": 1.1268436700382163,
+        "p95": 1.1282548968938628,
+        "p99": 1.12938387837838,
+        "sum": 4.481096684286318
+      },
+      "windows": 26392
+    },
+    "200-499": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 0,
+      "max_abs_probability_difference": 0.0002084611926576052,
+      "n": 4,
+      "speedup": {
+        "max": 1.1358120006564987,
+        "mean": 1.1173814268337159,
+        "median": 1.1141395318176195,
+        "min": 1.1054346430431257,
+        "n": 4,
+        "p90": 1.1300239348926773,
+        "p95": 1.132917967774588,
+        "p99": 1.1352331940801166,
+        "sum": 4.4695257073348635
+      },
+      "windows": 4172
+    },
+    "2000-4999": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 57,
+      "max_abs_probability_difference": 0.00045360156917217953,
+      "n": 4,
+      "speedup": {
+        "max": 1.128319078580984,
+        "mean": 1.1236907226560091,
+        "median": 1.1260971944655513,
+        "min": 1.11424942311195,
+        "n": 4,
+        "p90": 1.1277345585813754,
+        "p95": 1.1280268185811797,
+        "p99": 1.128260626581023,
+        "sum": 4.4947628906240364
+      },
+      "windows": 40776
+    },
+    "50-99": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 2,
+      "max_abs_probability_difference": 9.186789209469914e-05,
+      "n": 4,
+      "speedup": {
+        "max": 1.1104845832072368,
+        "mean": 1.0884424967401278,
+        "median": 1.0874059736363386,
+        "min": 1.0684734564805975,
+        "n": 4,
+        "p90": 1.1046475536918428,
+        "p95": 1.1075660684495396,
+        "p99": 1.1099008802556973,
+        "sum": 4.353769986960511
+      },
+      "windows": 1220
+    },
+    "500-999": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 22,
+      "max_abs_probability_difference": 0.00044974872763892115,
+      "n": 4,
+      "speedup": {
+        "max": 1.1156188932209414,
+        "mean": 1.108126385813935,
+        "median": 1.1102589316733233,
+        "min": 1.0963687866881513,
+        "n": 4,
+        "p90": 1.1151175360803027,
+        "p95": 1.115368214650622,
+        "p99": 1.1155687575068776,
+        "sum": 4.43250554325574
+      },
+      "windows": 10892
+    },
+    "all_random": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 161,
+      "max_abs_probability_difference": 0.00045360156917217953,
+      "n": 24,
+      "speedup": {
+        "max": 1.1358120006564987,
+        "mean": 1.1114575577827446,
+        "median": 1.1140985629320477,
+        "min": 1.0684734564805975,
+        "n": 24,
+        "p90": 1.1277345585813754,
+        "p95": 1.1294640669742306,
+        "p99": 1.134398448967891,
+        "sum": 26.674981386785873
+      },
+      "windows": 85788
+    },
+    "sentinel": {
+      "exact_outside_1e_12": 0,
+      "fast_outside_1e_12": 51,
+      "max_abs_probability_difference": 0.0009163761238772938,
+      "n": 3,
+      "speedup": {
+        "max": 1.148168436172785,
+        "mean": 1.1213071855114096,
+        "median": 1.1145788979426463,
+        "min": 1.1011742224187975,
+        "n": 3,
+        "p90": 1.1414505285267573,
+        "p95": 1.1448094823497712,
+        "p99": 1.1474966454081823,
+        "sum": 3.363921556534229
+      },
+      "windows": 13853
+    }
+  },
+  "limitations": [
+    "24 stratified random sequences, not a population-weighted estimate; 3 sentinels reported separately.",
+    "Single node; four pinned workers share memory and filesystem.",
+    "Elapsed time includes IO and process startup, amortized over 16 copies for sequences below 200 nt.",
+    "Differences are relative to standard logsumexp at beam=100, not exact folding probabilities."
+  ],
+  "result_hashes": {
+    "bpRNA_CRW_13490.json": "474493bcc05cfea8e702c77de0f2f8330dcd9ddaed932e397fa2ce5dc1c7b595",
+    "bpRNA_CRW_15869.json": "9a6d170b0671d4116ab533d030c164cf56e102f7407f3645555558b0e433dbc9",
+    "bpRNA_CRW_38238.json": "42febaecd886794b3fedc98e06e47f65470077c56f8cc16f0054230c4dfb34dc",
+    "bpRNA_CRW_4300.json": "27890a0f4c23dbaed6ad6c0289eda08bdb1e7f8549ceb23e44c1b131f065e069",
+    "bpRNA_CRW_5339.json": "421fae20f096554ed7d9892fe51a20918d210ad4a4084289047bef4a30271ea9",
+    "bpRNA_CRW_54703.json": "31aa6cc783c0cf86fe4fb915371fc67e691a2c0291ef2b266281c03ce959f235",
+    "bpRNA_CRW_55165.json": "913453a41b657c8232e4b9e27a61ba590e92ae98e894b96ce18adfae30fcb0cb",
+    "bpRNA_RFAM_23178.json": "369d5de1fbe3c655fe714238b641be0d4ec382ecc03f84c790f6180fd274cbe9",
+    "bpRNA_RFAM_23330.json": "2d652ece8db277ba899edf182241c97e8eb24a627bea8455f7c1dfcc2e823ce6",
+    "bpRNA_RFAM_27701.json": "8cd4e86883f11e892d8186ac82082a4682ae0b386d09a4f5a926a390856cfa43",
+    "bpRNA_RFAM_2981.json": "10ba8279d8a65ccde24ad85d869a0fd799d4c2a02c091ba92dbb27eaa67fe17e",
+    "bpRNA_RFAM_34507.json": "6a84a55a1757a12e9e556c6c0885a060e1d5b6d9c4debced24d10834454c45b0",
+    "bpRNA_RFAM_3471.json": "c8b5183ec06a949cebf3e85dcf4f9c9d28b52bfe3d90204b3ce7a3996209b500",
+    "bpRNA_RFAM_35028.json": "2c9875d6725839cfdfb9c90455d9ce564872bb7ac1fb5b2f0630b96e1392c949",
+    "bpRNA_RFAM_37055.json": "e4d6c147dc51197739d45c9b263db9fbaf0208416dacd6630492d89e2941f069",
+    "bpRNA_RFAM_37073.json": "564709fd25b7f8481831329da07fe6c829a2d588c16855c7d6ea4c8558949123",
+    "bpRNA_RFAM_37297.json": "62cb54ca41fcaed38bcdd4f132b6fa37dfde5d2ca03960f054d5764be58c1221",
+    "bpRNA_RFAM_42900.json": "e32453749069d4a8e1343ed94818ec033f5728a7b5b65416b059b865384ed9f4",
+    "bpRNA_RFAM_42909.json": "43a02f7ea6f49288d64e64752fa8787c96ee9cc2ca27dcf675541d7f36ecd451",
+    "bpRNA_RFAM_42966.json": "5fb4edc8b0135c31c1e9b0a64e992036d6dd97a6cef986357f52836f9a2b682c",
+    "bpRNA_RFAM_915.json": "7dcdf4fd1a296b0ae146a1fc5a2cd2b32e0487a948045a9ad04d7a78ca394dc3",
+    "bpRNA_RFAM_9233.json": "de4be7bacaeea6ac96023901d371d9e940a94e25c7d16d91950b8dbf4d3c409a",
+    "bpRNA_RFAM_9498.json": "52e678f8c960b523089b0e5141a11757c23cb00ed3ad01417f21d9066db790bc",
+    "bpRNA_RFAM_9539.json": "fc4628ec42f504e7dff7a0808e5cf2e9db569e78e9814b610e22239bf526f10f",
+    "bpRNA_RFAM_9662.json": "a6933d9100edd3b5a905b1cb81f60cb3b8910762a14bc02e622ed206a33c6317",
+    "bpRNA_SRP_568.json": "64bf54e8fc3237e71b5884e610c4b099bbf69af557b5184ac3ae28ca3886a78d",
+    "bpRNA_tmRNA_452.json": "e694615b5134fd862a54d7b340096e368526fd17344fb2a1737c7c108c61ad58"
+  },
+  "sequences": 27
+}

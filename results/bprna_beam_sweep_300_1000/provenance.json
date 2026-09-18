@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Beam-width sweep (b=50,100,200,300) for LinearRaccess accuracy against the exact reference, on the 1,770 bpRNA sequences with 300<=length<=1000nt (the three longer length bins of Table 1). Supports Supplementary Information S3.",
+  "software_revision": "892c93c80f4081b5a30f27901e7c16c25cac2088-dirty",
+  "software_revision_note": "New (beam_50/200/300) data embeds a dirty working-tree revision, violating software.lock.json's allow_dirty_worktree=false policy. The only uncommitted change present at generation time was the default -beam value edit later committed as bbba4549c776c51fa63c2cc1c571ea4e68faf2e6, and beam was passed explicitly on every invocation, so this is provenance noise rather than a computational difference; see software.lock.json's notes for the full account. reused_data below (exact_reference, beam_100) was generated cleanly at 892c93c8 (no -dirty suffix).",
+  "sequence_list": "benchmark/data/bprna_300_1000_list.txt",
+  "n_sequences": 1770,
+  "settings": {
+    "engine": "raccess",
+    "energy": "turner1999",
+    "c_multi": 30,
+    "c_hairpin": 30,
+    "access_lens": [1, 3, 7, 10],
+    "beams_tested": [50, 100, 200, 300]
+  },
+  "reused_data": {
+    "exact_reference": "benchmark/results/bprna_accuracy_comparison/exact",
+    "beam_100": "benchmark/results/bprna_accuracy_comparison/linear_b100"
+  },
+  "new_data": {
+    "beam_50": "linear_b50",
+    "beam_200": "linear_b200",
+    "beam_300": "linear_b300"
+  },
+  "results_median_absolute_error": {
+    "beam_50": 1.3073e-03,
+    "beam_100": 3.7963e-04,
+    "beam_200": 1.6775e-05,
+    "beam_300": 4.0398e-07
+  },
+  "n_cells_compared_per_beam": 3021702,
+  "residual_failures_max_error_gt_0.5": {
+    "beam_50": 1380,
+    "beam_100": 665,
+    "beam_200": 152,
+    "beam_300": 35,
+    "note": "Count of sequences (of 1,770) with at least one position/window absolute error exceeding 0.5. CORRECTED (independently re-verified 2026-09-16): this subset relationship does NOT hold at beam=50 -- 716 of its 1,380 failures are sequences that are fine at beam=100 (i.e. beam=50 is weaker than beam=100, so it fails on a different, larger population, not a strict subset of the 791). The subset relationship DOES hold at beam=200 (all 152 subset of the 791) and beam=300 (all 35 subset of the 791): no sequence newly crosses this threshold when the beam is increased ABOVE 100. Maximum observed error at beam=300 is 0.9129. The manuscript's own beam=300 claim (Supplementary S3) is scoped correctly to beam=300 only and is unaffected by this correction."
+  }
+}

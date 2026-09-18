@@ -1,0 +1,7 @@
+{
+  "evidence_scope": "None. This bundle is deprecated and must not be cited as evidence; see DEPRECATED.md.",
+  "validation_passed": false,
+  "n_sequences": 26063,
+  "n_sequences_out_of_range": 7746,
+  "n_probability_values_out_of_range": 43775
+}

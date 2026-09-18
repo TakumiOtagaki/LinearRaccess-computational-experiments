@@ -1,0 +1,10 @@
+{
+  "n_total_cells": 9399684,
+  "n_cells_in_range": 1265593,
+  "fraction_of_all_cells_in_range": 0.13464207945713919,
+  "median_relative_error": 0.006157083982843827,
+  "p90_relative_error": 0.8537602382395676,
+  "p99_relative_error": 15.050602263595042,
+  "max_relative_error": 36690729.31941858,
+  "fraction_relative_error_over_1": 0.029180787188298293
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "kind": "retrospective_provenance_index",
+  "added_date": "2026-09-14",
+  "note": "Index of original provenance records; original files and historical limitations are unchanged.",
+  "records": [
+    {
+      "path": "summary.json",
+      "sha256": "058cc14bf49f3bb950c2d5d041e1733fff902c0a9df07b3ee9fe40c37ca642ba"
+    },
+    {
+      "path": "validation.json",
+      "sha256": "1b9e7dcc3cc2490fc563d0634f8e3672728008a4c4e0ccb3836649641fa737d5"
+    },
+    {
+      "path": "scheduler_smoke.json",
+      "sha256": "7e6e45735a73d22daced74cd0e616bf9d05320eb76cce99463c12132b5447785"
+    }
+  ]
+}

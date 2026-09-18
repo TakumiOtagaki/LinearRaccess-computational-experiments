@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "description": "Turner 1999 rerun of the RNAplfold Table 1 comparison on 12,872 bpRNA sequences; original default-parameter results remain in rnaplfold_w100_u10.",
+  "tool": {
+    "name": "RNAplfold",
+    "package": "ViennaRNA",
+    "version": "RNAplfold 2.7.2",
+    "binary_path": "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+    "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f"
+  },
+  "input": {
+    "path": "benchmark/data/bprna_100_1000.fa",
+    "sha256": "8e076371ca0595fbdffee1e748d4f487d8d9a67b42fd15bbbcc77f9e9419e6b7",
+    "sequence_list": "benchmark/data/bprna_100_1000_list.txt",
+    "sequence_list_sha256": "cdb1d3e5c4ba60b361d8529817357c0f7a1ba48fcfd26e023987ff06788f94a6"
+  },
+  "settings": {
+    "winsize_W": 100,
+    "span_L": 100,
+    "ulength_u": 10,
+    "access_lens": [
+      1,
+      3,
+      7,
+      10
+    ],
+    "energy_model": "Turner 1999",
+    "parameter_file": "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+    "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548"
+  },
+  "reference": {
+    "path": "benchmark/results/bprna_accuracy_comparison/exact",
+    "energy_model": "Turner 1999",
+    "note": "Reuses frozen Table 1 Raccess Exact outputs unchanged."
+  },
+  "command_template": "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold -P /work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par -W 100 -L 100 -u 10 < chunk.fa",
+  "execution": {
+    "started_at": "2026-09-18T06:25:52.610246+00:00",
+    "host": "r5n4",
+    "job_id": "8704716",
+    "allocated_slots": "16",
+    "workers": 16,
+    "method": "16 single-threaded chunk processes in the existing interactive allocation",
+    "script": "benchmark/scripts/uge/rnaplfold_comparison.sh",
+    "script_sha256": "a4f94b3bb0968601e057cd4c79e65d447790641c064c5e606b04ebed0c5cad20",
+    "repository_commit": "d766c9e9e591cb8f21bde1f0228c77165b201033",
+    "finished_at": "2026-09-18T06:27:36.474179+00:00",
+    "failed_tasks": [],
+    "tasks": [
+      {
+        "task_id": 1,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:27:36.184548+00:00",
+        "chunk_sha256": "62b7f22d295737916bb7220f2c604b81eb5bfce9081e67160b346e8ccb0076f0",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 10,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:24.140493+00:00",
+        "chunk_sha256": "701e51b1ce0b1baa52fab1e1fc2e33625b7679f172973caca17df6cc5f280940",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 11,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:37.211680+00:00",
+        "chunk_sha256": "7dc3294ab1a1a044180ce4ba2e4047e0eae280a0e637926374ef6d9a0559453e",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 12,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:30.545978+00:00",
+        "chunk_sha256": "2e1095ba1bec95b6f6be1e83458cea2d999c58175a0f0d5054b31224b86c9af7",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 13,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:32.554035+00:00",
+        "chunk_sha256": "556634bad65a8e6a074036d00fd46754d6f8d05fd3f5f31e84b0fa8603f7f96a",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 14,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:33.535893+00:00",
+        "chunk_sha256": "b8826e6edf4650bd07b4bd99506aedd3e7f6c7459061370cf0acc72696202576",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 15,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:36.072646+00:00",
+        "chunk_sha256": "469350b37e5c90c9961e76e0223c35f8ebce020baaf79e62d4f5ca0aaf830d28",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 16,
+        "n_sequences": 797,
+        "completed_at": "2026-09-18T06:26:27.771729+00:00",
+        "chunk_sha256": "81305e7aa7a81481aaad8ddde2a28d88b9971e688ee71234a3db5f40996010ad",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 2,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:27:03.568783+00:00",
+        "chunk_sha256": "bdb5b637e2eaf5a603e5347a71bdbf06ecc24a6ace9b38cf5988861faebbcf1f",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 3,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:27:06.634594+00:00",
+        "chunk_sha256": "24af648d378676cdce93e7fc3a7bb19c9e392c8e4d522d12ee31c2ff8115f103",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 4,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:35.038338+00:00",
+        "chunk_sha256": "0b25f0f19f8c49813743f66c99ff3959bb9cabda5971fe89f80c4ac084812203",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 5,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:20.665768+00:00",
+        "chunk_sha256": "4d72cda563cad265f58d4d8c23dbbd0bf29607e0ded85f7b5043a8362e02761f",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 6,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:40.872757+00:00",
+        "chunk_sha256": "b0fe29339f71e9ef757be1e37c9992b398a6a412c869aa8a8f50b3081dbdcf62",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 7,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:28.821493+00:00",
+        "chunk_sha256": "f7043825ca7fa098d1473b55b793e3e868ecfa4df0a8479dd24ebecb7e0ab2bd",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 8,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:29.478563+00:00",
+        "chunk_sha256": "bb236bcae1efa9cb98cc53a0ab92d2a56f99a909c6b904b406246916b16048d1",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      },
+      {
+        "task_id": 9,
+        "n_sequences": 805,
+        "completed_at": "2026-09-18T06:26:25.931348+00:00",
+        "chunk_sha256": "bc51d79075a072567bbe46bd0c7b79784445126d604b9fe1f1767da2a84d4c1c",
+        "binary_sha256": "a6ba45cd7c3dfde426bc6ca81c1c6e0d625ec2bb4ed3ff82a46d84ab62a7930f",
+        "parameter_sha256": "9c988308f201960d3b3906297e96969928065bdfcf7d9a1f92ea66888495e548",
+        "command": [
+          "/work/3/ub07263/apps/ViennaRNA/2.7.2/install/bin/RNAplfold",
+          "-P",
+          "/gs/bs/work/3/ub07263/apps/ViennaRNA/2.7.2/install/share/ViennaRNA/rna_turner1999.par",
+          "-W",
+          "100",
+          "-L",
+          "100",
+          "-u",
+          "10"
+        ]
+      }
+    ]
+  },
+  "outputs": {
+    "lunp": "lunp/",
+    "task_records": "tasks/",
+    "summary": "summary.json"
+  },
+  "lunp_format_note": "Each _lunp row i (1-indexed), column l gives the probability that positions [i-l+1, i] (1-indexed, inclusive) are all unpaired. Converted to this repository's 0-indexed start-anchored (start, length) convention as start_0idx = i - l to match parse_raccess/parse_linracc's shape.",
+  "completed": true,
+  "n_sequences": 12872,
+  "n_missing_sequences": 0,
+  "n_cells_compared": 9399684,
+  "analysis": {
+    "script": "benchmark/scripts/rnaplfold_compare.py",
+    "script_sha256": "030f6863fd75583b35784fce082209cc237780745f99a6d3ed02cf7ee738b227",
+    "summary_sha256": "cbe016333b8f6b6290cf41c86250a4e0acdbe381320be3425e7da4e01a8bb8ab",
+    "validation": "All expected starts for each length 1,3,7,10 required; non-finite values and out-of-range RNAplfold probabilities rejected."
+  }
+}

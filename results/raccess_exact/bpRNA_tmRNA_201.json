@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_tmRNA_201",
+  "seq_length": 381,
+  "method": "raccess-exact",
+  "max_span": 381,
+  "elapsed_sec": 1.11,
+  "memory_kb": 16768,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

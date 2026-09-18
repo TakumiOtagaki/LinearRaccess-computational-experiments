@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "description": "Item 11: does raising the loop caps to accommodate window lengths w in {20,30,50} -- approaching or exceeding the default 30-nt cap, and the paper's own motivating applications (siRNA/ASO ~15-25nt, RBP footprints ~50nt) -- restore accuracy on its own, or does beam width also need to increase? Fresh Raccess Exact reference computed for this access_len set (the Table 1/S3 exact reference only has w in {1,3,7,10}); LinearRaccess run at beam=100 and beam=200, both with c_multi=c_hairpin=60 (>= the largest tested w); Raccess Window (W=100) run for comparison. Supports Discussion and Supplementary S4.",
+  "software_revision": "59b692c71aebf3f4dcc7502bd1608da095d40a75",
+  "sequence_list": "benchmark/data/bprna_300_1000_list.txt",
+  "n_sequences": 1770,
+  "settings": {
+    "access_lens": [1, 3, 7, 10, 20, 30, 50],
+    "exact": {"max_span": "sequence length (unrestricted)"},
+    "linearraccess": {"engine": "raccess", "energy": "turner1999", "c_multi": 60, "c_hairpin": 60, "beams_tested": [100, 200]},
+    "raccess_window": {"max_span": 100}
+  },
+  "new_data": {
+    "exact": "exact/",
+    "linear_beam100_cap60": "linear_b100_c60/",
+    "linear_beam200_cap60": "linear_b200_c60/",
+    "raccess_window": "window_w100/"
+  },
+  "scripts": [
+    "benchmark/scripts/uge/bprna_w_cap_sweep.sh",
+    "benchmark/scripts/uge/bprna_w_cap_sweep_beam200_window.sh"
+  ],
+  "all_runs_status": "1770/1770 SUCCESS for every method (exact, linear beam=100/200, window)"
+}

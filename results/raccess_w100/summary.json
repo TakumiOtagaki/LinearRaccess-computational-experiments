@@ -1,0 +1,14 @@
+{
+  "evidence_scope": "Reference-method (raccess-w100) per-sequence runtime/memory results used as the Raccess side of Figure 2/3, generated on bpRNA sequences up to 1000 nt (exact) or the full bpRNA set (window).",
+  "experiment_id": "raccess_w100",
+  "method": "raccess-w100",
+  "sequence_count": 26063,
+  "n_success": 26063,
+  "n_failed": 0,
+  "length_range_nt": [
+    50,
+    4381
+  ],
+  "elapsed_sec_median": 0.06,
+  "elapsed_sec_max": 5.43
+}

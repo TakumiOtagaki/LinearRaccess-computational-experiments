@@ -1,0 +1,13 @@
+{
+  "evidence_scope": "CORRECTED 2026-09-16: e1_raccess_exact_2026-09-10 is now genuinely superseded by benchmark/results/e1_random_2026-09-16 (random-sequence exact-mode validation, main text §3.1). e3_long_scaling_2026-09-10 (SARS-CoV-2 169s timing, §3.3) remains active manuscript evidence despite being archived alongside genuinely-superseded bundles. See provenance.json per-bundle notes.",
+  "n_archived_bundles": 6,
+  "current_evidence_pointers": {
+    "bpRNA_26063_sequence_run": "benchmark/results/bprna_runs/8666393",
+    "bpRNA_12872_accuracy_comparison": "benchmark/results/bprna_accuracy_comparison",
+    "raccess_reference_exact": "benchmark/results/raccess_exact",
+    "raccess_reference_window_w100": "benchmark/results/raccess_w100",
+    "memory_scaling": "benchmark/results/bprna_memory_runs/8677021",
+    "exact_mode_validation_section3.1": "benchmark/results/e1_random_2026-09-16",
+    "sars_cov2_scaling_section3.3": "benchmark/results/archive/e3_long_scaling_2026-09-10"
+  }
+}

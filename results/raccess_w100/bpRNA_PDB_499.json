@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_PDB_499",
+  "seq_length": 151,
+  "method": "raccess-w100",
+  "max_span": 100,
+  "elapsed_sec": 0.14,
+  "memory_kb": 6144,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

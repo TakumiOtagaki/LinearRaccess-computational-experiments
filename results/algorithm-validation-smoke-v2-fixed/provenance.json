@@ -1,0 +1,40 @@
+{
+  "argv": [
+    "benchmark/scripts/run_algorithm_validation.py",
+    "--manifest",
+    "benchmark/manifests/algorithm_validation_smoke_v2.json",
+    "--software-dir",
+    "/tmp/8579820.1.all.q/LinearRaccess",
+    "--linracc",
+    "/tmp/8579820.1.all.q/LinearRaccess/build/LinRacc",
+    "--output-dir",
+    "benchmark/results/algorithm-validation-smoke-v2-fixed"
+  ],
+  "experiment_id": "algorithm-validation-smoke-v2-fixed",
+  "generated_at_utc": "2026-09-05T15:15:41.742225+00:00",
+  "hardware": {
+    "hostname": "r10n3",
+    "machine": "x86_64",
+    "platform": "Linux-5.14.0-687.41.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "processor": "x86_64",
+    "python": "3.9.25 (main, Mar 26 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]"
+  },
+  "linracc_path": "/tmp/8579820.1.all.q/LinearRaccess/build/LinRacc",
+  "linracc_sha256": "deff3f3d06c68ddbffa4197a3215e85c94a704a3af883a2018ecb2c6a1c20da0",
+  "manifest_path": "benchmark/manifests/algorithm_validation_smoke_v2.json",
+  "manifest_sha256": "dcde741e00b815b48d4ef0a3426e04f155f2812a4af337c456c0fa617cd80603",
+  "paper_repository": {
+    "commit": "18960679377e423878559052a8b40829f3053b5a",
+    "remote": "git@github.com:TakumiOtagaki/LinearRaccess-paper.git",
+    "status": ""
+  },
+  "schema_version": 1,
+  "software_lock_sha256": "0b6b28a671065b5291c394392bc12f58a22bdba9c712f833ac9f18b50ad472ad",
+  "software_repository": {
+    "commit": "51ed3c3c5cf20e61cf075d116903baaf98cf4790",
+    "remote": "git@github.com:TakumiOtagaki/LinearRaccess.git",
+    "status": ""
+  },
+  "source_file_sha256": "cf30b7009b6ef21a57eeae3bd55c05f956598456478282c7badbe604c7546167",
+  "source_path": "benchmark/data/algorithm_validation_v1.fa"
+}

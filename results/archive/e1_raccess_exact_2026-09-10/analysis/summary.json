@@ -1,0 +1,154 @@
+{
+  "access_lens": [
+    1,
+    3,
+    7,
+    10
+  ],
+  "beam": 0,
+  "compared_cells": 2408,
+  "comparison_complete": true,
+  "energy": "turner1999",
+  "energy_diff": {
+    "count": 2408,
+    "max": 0.00011295746318751299,
+    "mean": 4.302614287425245e-06,
+    "median": 2.2050728585298884e-06,
+    "min": 9.187715249841117e-14,
+    "p95": 2.396596484466329e-05,
+    "rms": 9.597554757308975e-06
+  },
+  "energy_thr": 1000.0,
+  "max_span": 207,
+  "per_sequence": [
+    {
+      "compared_cells": 287,
+      "energy_diff": {
+        "count": 287,
+        "max": 4.989460409721147e-06,
+        "mean": 1.8911757031125413e-06,
+        "median": 1.3959824864961945e-06,
+        "min": 1.8088081461245173e-11,
+        "p95": 4.712481699087334e-06,
+        "rms": 2.516794916742334e-06
+      },
+      "expected_cells": 287,
+      "length": 76,
+      "missing_linracc_cells": 0,
+      "missing_raccess_cells": 0,
+      "nonfinite_cells": 0,
+      "probability_diff": {
+        "count": 287,
+        "max": 1.0888004963738318e-06,
+        "mean": 1.1033183797777354e-07,
+        "median": 3.005768582468871e-08,
+        "min": 4.156410538487597e-12,
+        "p95": 5.15977918280619e-07,
+        "rms": 2.1443163470216916e-07
+      },
+      "sequence": "M10263_trna_phe",
+      "spearman_energy": 1.0
+    },
+    {
+      "compared_cells": 503,
+      "energy_diff": {
+        "count": 503,
+        "max": 4.998543160894542e-05,
+        "mean": 4.186058182216993e-06,
+        "median": 2.2066404241627424e-06,
+        "min": 3.86400371978578e-12,
+        "p95": 2.396596484466329e-05,
+        "rms": 9.13122793551134e-06
+      },
+      "expected_cells": 503,
+      "length": 130,
+      "missing_linracc_cells": 0,
+      "missing_raccess_cells": 0,
+      "nonfinite_cells": 0,
+      "probability_diff": {
+        "count": 503,
+        "max": 1.2910294197587824e-06,
+        "mean": 5.540357955385606e-08,
+        "median": 2.1984551764773694e-09,
+        "min": 6.365587433579557e-17,
+        "p95": 3.089487083940412e-07,
+        "rms": 1.481808984290739e-07
+      },
+      "sequence": "4KQY_A_sam1_riboswitch",
+      "spearman_energy": 0.999999976426774
+    },
+    {
+      "compared_cells": 807,
+      "energy_diff": {
+        "count": 807,
+        "max": 0.00011295746318751299,
+        "mean": 5.697788923123133e-06,
+        "median": 2.4845115760285807e-06,
+        "min": 9.187715249841117e-14,
+        "p95": 3.495219817395423e-05,
+        "rms": 1.229276950163666e-05
+      },
+      "expected_cells": 807,
+      "length": 206,
+      "missing_linracc_cells": 0,
+      "missing_raccess_cells": 0,
+      "nonfinite_cells": 0,
+      "probability_diff": {
+        "count": 807,
+        "max": 1.307484379542423e-06,
+        "mean": 5.861953394808414e-08,
+        "median": 3.515620250970318e-10,
+        "min": 3.6925319747347224e-17,
+        "p95": 3.6946300485674044e-07,
+        "rms": 1.6072442141607131e-07
+      },
+      "sequence": "HG323429_srp_rna",
+      "spearman_energy": 0.9999999885835437
+    },
+    {
+      "compared_cells": 811,
+      "energy_diff": {
+        "count": 811,
+        "max": 4.9872126670180705e-05,
+        "mean": 3.839981320235726e-06,
+        "median": 2.2044725440650836e-06,
+        "min": 1.1050770167648702e-10,
+        "p95": 1.4884770157763683e-05,
+        "rms": 8.317303261179857e-06
+      },
+      "expected_cells": 811,
+      "length": 207,
+      "missing_linracc_cells": 0,
+      "missing_raccess_cells": 0,
+      "nonfinite_cells": 0,
+      "probability_diff": {
+        "count": 811,
+        "max": 1.4243563853100216e-06,
+        "mean": 6.759013608677793e-08,
+        "median": 7.1387836642772e-10,
+        "min": 7.5699261316482e-17,
+        "p95": 4.0227883094795525e-07,
+        "rms": 1.8172546565730388e-07
+      },
+      "sequence": "7UO1_B_rnase_p_rna",
+      "spearman_energy": 0.9999999831274544
+    }
+  ],
+  "probability_diff": {
+    "count": 2408,
+    "max": 1.4243563853100216e-06,
+    "mean": 6.713239297246327e-08,
+    "median": 1.8940614757753226e-09,
+    "min": 3.6925319747347224e-17,
+    "p95": 3.935292964274417e-07,
+    "rms": 1.7276151080420425e-07
+  },
+  "runtime": {
+    "linracc_peak_rss_mb": 12.0,
+    "linracc_seconds": 1.6520933890133165,
+    "raccess_peak_rss_mb": 12.0,
+    "raccess_seconds": 0.720693736046087
+  },
+  "spearman_energy": 0.9999999980662764,
+  "total_rows": 2408
+}

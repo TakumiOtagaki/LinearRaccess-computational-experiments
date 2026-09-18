@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "kind": "retrospective_provenance_index",
+  "added_date": "2026-09-14",
+  "note": "Index of original provenance records; original files and historical limitations are unchanged.",
+  "records": [
+    {
+      "path": "manifest.json",
+      "sha256": "7d57d49cf208a4f1784541178c6be2c91cdc0f2dd54b975d736fb31fb57e15c6"
+    },
+    {
+      "path": "analysis_provenance.json",
+      "sha256": "a0ca20ca66620c148492fc4780047e83538830c26353541ed721e30616f71594"
+    }
+  ]
+}

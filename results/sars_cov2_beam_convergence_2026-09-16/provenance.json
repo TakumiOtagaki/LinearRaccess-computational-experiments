@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "Beam-width convergence check of the SARS-CoV-2 genome's ensemble free energy (Gensemble), reproducing the same diagnostic used in LinearCapR's Figure 7 (Otagaki2026-ev) but under the raccess-compatibility engine (Turner 1999) to match this paper's accuracy evaluation (Results §3.1-§3.2), rather than the lincapr/Turner 2004 settings used for the runtime/memory scaling in §3.3. Supports the new Results §3.3 figure (fig:sars_convergence).",
+  "input": {
+    "path": "benchmark/data/NC_045512.2.fa",
+    "sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e",
+    "description": "SARS-CoV-2 reference genome, NC_045512.2, 29,903 nt"
+  },
+  "linracc": {
+    "binary": "vendor/LinearRaccess/build-raccess/LinRacc",
+    "binary_sha256": "91ad9d077acba05272fcef5bdd4f23bc27a9dcdf370d2794d682d86cf663345e",
+    "source_revision": "59b692c71aebf3f4dcc7502bd1608da095d40a75",
+    "note_on_revision": "This commit (59b692c, child of bbba4549) adds the -print-ensemble-energy CLI flag used to generate this evidence; it changes only linracc_main.cpp (a new opt-in output flag, exposing the pre-existing LinCapR::get_energy_ensemble() method), so no previously-frozen evidence is affected. Binary rebuilt from a verified-clean checkout at this commit before running (no -dirty suffix).",
+    "command_template": "vendor/LinearRaccess/build-raccess/LinRacc -seqfile=benchmark/data/NC_045512.2.fa -outfile=benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam<BEAM>.txt -access_len=1 -engine=raccess -beam=<BEAM> -c_multi=30 -c_hairpin=30 -energy=turner1999 -no-normalize -metadata -print-ensemble-energy",
+    "beams_tested": [5, 10, 25, 50, 100, 200]
+  },
+  "outputs": {
+    "beam_5": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam5.txt",
+    "beam_10": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam10.txt",
+    "beam_25": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam25.txt",
+    "beam_50": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam50.txt",
+    "beam_100": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam100.txt",
+    "beam_200": "benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam200.txt"
+  },
+  "results_ensemble_free_energy_kcal_mol": {
+    "beam_5": -7191.18,
+    "beam_10": -8004.63,
+    "beam_25": -8867.98,
+    "beam_50": -9272.71,
+    "beam_100": -9529.57,
+    "beam_200": -9698.21
+  },
+  "runtime_seconds": {
+    "beam_5": 5.08,
+    "beam_10": 10.58,
+    "beam_25": 28.45,
+    "beam_50": 63.24,
+    "beam_100": 147.03,
+    "beam_200": 363.62
+  },
+  "note": "An earlier attempt at this experiment (same day) mistakenly passed an explicit -source-revision=bbba4549... flag while the binary was actually built from a dirty working tree (bbba4549 + the uncommitted -print-ensemble-energy diff), which would have falsely recorded a clean revision. That attempt's output was discarded (not committed) once caught; this bundle was regenerated from a properly committed, clean checkout (commit 59b692c) with auto-detected revision embedding."
+}

@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_SRP_509",
+  "seq_length": 315,
+  "method": "raccess-exact",
+  "max_span": 315,
+  "elapsed_sec": 0.66,
+  "memory_kb": 14688,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

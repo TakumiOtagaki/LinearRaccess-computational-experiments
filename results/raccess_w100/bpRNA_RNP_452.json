@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_RNP_452",
+  "seq_length": 365,
+  "method": "raccess-w100",
+  "max_span": 100,
+  "elapsed_sec": 0.38,
+  "memory_kb": 6144,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

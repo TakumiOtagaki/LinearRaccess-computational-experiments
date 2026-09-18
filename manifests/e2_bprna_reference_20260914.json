@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "experiment_id": "e2-bprna-reference-20260914",
+  "description": "Internal approximation sweep on 12 length-stratified real bpRNA sequences; beam 100 combined production configuration",
+  "source": {
+    "path": "../data/bprna_reference_20260914.fa",
+    "file_sha256": "2dd0a75538fd44ce580dff4ddbda0af86784c7e2ee5c049b63ac5f72970f27d6",
+    "records": [
+      {
+        "id": "bpRNA_RFAM_23178",
+        "length": 97,
+        "sequence_sha256": "2d46c3a26c618ac7ff19c255e5d6efee24b7cd667e81699d0af188dca119ca6b"
+      },
+      {
+        "id": "bpRNA_RFAM_9662",
+        "length": 75,
+        "sequence_sha256": "36e024f7376a465adeccae6b7c08c4dce1bf67df51c2364ee1b80e4ff7659882"
+      },
+      {
+        "id": "bpRNA_RFAM_37297",
+        "length": 78,
+        "sequence_sha256": "aa58f6f2d5a246687a5c031c27b6999ca48b88a0cb48719c52ebf1f8ba3db9d2"
+      },
+      {
+        "id": "bpRNA_RFAM_42316",
+        "length": 194,
+        "sequence_sha256": "9c830a3427c1d6b8730aeaf7ff3c257f381bfa2ae16f5df98fa7815d9f91c326"
+      },
+      {
+        "id": "bpRNA_RFAM_34507",
+        "length": 109,
+        "sequence_sha256": "2e953bfac100422ca057d127bcf61bb686deb9e53a762e183fae1e77200b9151"
+      },
+      {
+        "id": "bpRNA_RFAM_915",
+        "length": 197,
+        "sequence_sha256": "f66411f5f6bbd0161779719c683728d37e0a1c64d2d22f9d85a8ea7942de1eda"
+      },
+      {
+        "id": "bpRNA_CRW_15188",
+        "length": 236,
+        "sequence_sha256": "bf6073a63bbda775849c0c0dc08f349962fe1d50785853ddf8b1684703777bb5"
+      },
+      {
+        "id": "bpRNA_RFAM_39754",
+        "length": 220,
+        "sequence_sha256": "0d0dc1a2d5bd2789602124af02ca7af99bae0f47bbe944fed678a569473804c6"
+      },
+      {
+        "id": "bpRNA_RFAM_35944",
+        "length": 367,
+        "sequence_sha256": "4032c89502713dbc4de19572ac8d776aa07422eae8fd84a73f905b285aa222ad"
+      },
+      {
+        "id": "bpRNA_RNP_57",
+        "length": 411,
+        "sequence_sha256": "96f117c21b3ae313c833ce344b57e5d1091a41d7c69dff2d1447b26feb33890a"
+      },
+      {
+        "id": "bpRNA_tmRNA_100",
+        "length": 425,
+        "sequence_sha256": "afb999b371c79736281545334e492ea2185a29f0db8a6c4384775edaacf2e44d"
+      },
+      {
+        "id": "bpRNA_RFAM_2711",
+        "length": 400,
+        "sequence_sha256": "a6ac5373cbe7ba43afea7ed5b4b75fada92e8d1386694a287f35642538f12af1"
+      }
+    ]
+  },
+  "access_lens": [
+    1,
+    3,
+    7,
+    10
+  ],
+  "reference": {
+    "id": "reference-exact",
+    "family": "reference",
+    "engine": "lincapr",
+    "energy": "turner2004",
+    "beam": 0,
+    "c_multi": "sequence_length",
+    "c_hairpin": "sequence_length",
+    "fast_logsumexp": false,
+    "normalize_profiles": false
+  },
+  "configurations": [
+    {
+      "id": "beam-20",
+      "family": "beam",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 20,
+      "c_multi": "sequence_length",
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "beam-50",
+      "family": "beam",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 50,
+      "c_multi": "sequence_length",
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "beam-100",
+      "family": "beam",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 100,
+      "c_multi": "sequence_length",
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "beam-200",
+      "family": "beam",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 200,
+      "c_multi": "sequence_length",
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "c-multi-10",
+      "family": "c_multi",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 0,
+      "c_multi": 10,
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "c-multi-30",
+      "family": "c_multi",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 0,
+      "c_multi": 30,
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "c-hairpin-10",
+      "family": "c_hairpin",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 0,
+      "c_multi": "sequence_length",
+      "c_hairpin": 10,
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "c-hairpin-30",
+      "family": "c_hairpin",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 0,
+      "c_multi": "sequence_length",
+      "c_hairpin": 30,
+      "fast_logsumexp": false,
+      "normalize_profiles": false
+    },
+    {
+      "id": "fast-logsumexp",
+      "family": "logsumexp",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 0,
+      "c_multi": "sequence_length",
+      "c_hairpin": "sequence_length",
+      "fast_logsumexp": true,
+      "normalize_profiles": false
+    },
+    {
+      "id": "production-defaults",
+      "family": "combined",
+      "engine": "lincapr",
+      "energy": "turner2004",
+      "beam": 100,
+      "c_multi": 30,
+      "c_hairpin": 30,
+      "fast_logsumexp": true,
+      "normalize_profiles": false
+    }
+  ],
+  "relative_error_floor": 1e-08,
+  "invariant_tolerance": 1e-10,
+  "selection": {
+    "seed": 20260914,
+    "rule": "3 uniformly sampled without replacement from lexicographically sorted IDs per stratum; no outcome-based filtering",
+    "strata": [
+      {
+        "lower": 50,
+        "upper": 99,
+        "population": 12428,
+        "selected": [
+          "bpRNA_RFAM_23178",
+          "bpRNA_RFAM_9662",
+          "bpRNA_RFAM_37297"
+        ]
+      },
+      {
+        "lower": 100,
+        "upper": 199,
+        "population": 9656,
+        "selected": [
+          "bpRNA_RFAM_42316",
+          "bpRNA_RFAM_34507",
+          "bpRNA_RFAM_915"
+        ]
+      },
+      {
+        "lower": 200,
+        "upper": 399,
+        "population": 2541,
+        "selected": [
+          "bpRNA_CRW_15188",
+          "bpRNA_RFAM_39754",
+          "bpRNA_RFAM_35944"
+        ]
+      },
+      {
+        "lower": 400,
+        "upper": 599,
+        "population": 461,
+        "selected": [
+          "bpRNA_RNP_57",
+          "bpRNA_tmRNA_100",
+          "bpRNA_RFAM_2711"
+        ]
+      }
+    ],
+    "dataset_sha256": "c76025522f1f9e174c25207595bc079e454deb656acbfd3a51de71c60c167bc5"
+  }
+}

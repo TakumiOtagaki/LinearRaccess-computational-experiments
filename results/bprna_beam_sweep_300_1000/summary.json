@@ -1,0 +1,14 @@
+{
+  "evidence_scope": "Beam-width sweep supporting Supplementary Information S3: does LinearRaccess accuracy improve monotonically with beam width on bpRNA sequences 300-1000nt?",
+  "median_absolute_error_by_beam_and_bin": {
+    "beam_50": {"300-500": 9.7558e-04, "500-700": 1.2026e-03, "700-1000": 4.4801e-03, "all": 1.3073e-03},
+    "beam_100": {"300-500": 2.3804e-04, "500-700": 4.1521e-04, "700-1000": 2.3101e-03, "all": 3.7963e-04},
+    "beam_200": {"300-500": 5.7953e-06, "500-700": 4.5281e-05, "700-1000": 7.0836e-04, "all": 1.6775e-05},
+    "beam_300": {"300-500": 1.1291e-07, "500-700": 4.3783e-06, "700-1000": 2.2780e-04, "all": 4.0398e-07}
+  },
+  "residual_failures_max_error_gt_0.5": {
+    "beam_50": 1380, "beam_100": 665, "beam_200": 152, "beam_300": 35,
+    "note": "CORRECTED (2026-09-16): only beam_200 and beam_300's failures are a subset of the 791/12,872 sequences flagged in S1 (no sequence newly crosses 0.5 when beam is increased above 100). beam_50 is NOT a subset: 716 of its 1,380 failures are sequences that pass at beam=100 (beam=50 is a weaker approximation than beam=100, so it fails on a different, larger population). Max observed error at beam=300 is 0.9129."
+  },
+  "conclusion": "Median error decreases monotonically with beam width in every length bin and overall, but the per-doubling reduction is uneven (3.4x, 22.6x, 41.5x overall from beam=50 to 300) rather than a uniform order of magnitude. Convergence is slower and more uneven for longer (700-1000nt) sequences. A pooled-median improvement does not eliminate the underlying failure mode for every hard sequence: 35/1770 sequences still exceed the 0.5 absolute-error threshold at beam=300."
+}

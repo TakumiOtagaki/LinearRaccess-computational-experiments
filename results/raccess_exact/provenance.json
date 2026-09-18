@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "description": "Reference-method (exact) results for the Figure 2/3 runtime/memory comparison against LinearRaccess (benchmark/results/bprna_runs/8666393).",
+  "tool": "vendor/raccess (run_raccess)",
+  "vendor_commit": "ad29d098b62606aa4051951469780b4e7be54536",
+  "binary_path": "vendor/raccess/src/raccess/run_raccess",
+  "binary_sha256": "fe30cdc9af57fb2c198cd778434b1c998c6f96f3a44abadd406fd879f003df2a",
+  "binary_mtime_unix": 1789356669.0,
+  "n_result_files": 25300,
+  "n_success": 25300,
+  "result_file_mtime_range_unix": [
+    1789357721.0,
+    1789360533.0
+  ],
+  "caveat": "No run-level manifest was written when these results were generated (2026-09-14), so the executing binary was not hashed at run time. binary_sha256/mtime above are the current observed values, recorded retroactively; the binary's mtime predates every result file's mtime, which is consistent with (but does not prove) this being the binary that produced them. Future runs should snapshot the binary hash at execution time, as benchmark/scripts/run_bprna_chunk.py already does for LinRacc."
+}

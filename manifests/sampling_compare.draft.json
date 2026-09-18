@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "experiment_id": "sampling-compare-v1",
+  "status": "draft-pending-results",
+  "description": "Sampling-variance vs direct-marginalization comparison on accessioned real RNAs (tRNA, SAM-I riboswitch, SRP RNA, RNase P, SARS-CoV-2). See docs/sampling_compare_plan.md for the pre-registered design.",
+  "sampling_software": {
+    "repository": "https://github.com/LinearFold/LinearSampling",
+    "commit": "1492a93f3616bf8ae8ab9177f9bb85a53da4b155",
+    "linear_binary": "bin/linearsampling_lazysaving",
+    "exact_binary": "bin/exact_linearsampling_lazysaving",
+    "linear_beam": 100
+  },
+  "window_lens": [1, 3, 7, 10],
+  "sequences": [
+    {
+      "id": "M10263_trna_phe",
+      "accession": "M10263.1",
+      "description": "Saccharomyces cerevisiae tRNA-Phe gene",
+      "path": "../data/M10263_trna_phe.fa",
+      "length": 76,
+      "file_sha256": "9a1a8bee051fbe9816c3a7dff9f8cf9bb505784b6736eb94c44f633e3bc08841",
+      "sequence_sha256": "28890de0dd2033379fabebc7165a219d6092ad9bbadc77f4c7528be78963ca0b"
+    },
+    {
+      "id": "4KQY_A_sam1_riboswitch",
+      "accession": "4KQY_A",
+      "description": "Bacillus subtilis SAM-I (yitJ) riboswitch",
+      "path": "../data/4KQY_A_sam1_riboswitch.fa",
+      "length": 119,
+      "file_sha256": "2f49524d78e747696bd6aa6adb3010ea199b21737ac9b4d5dc945ab499a65da4",
+      "sequence_sha256": "6166f3c7310e9634a7daf92e8447d17de512c55e24005a52b020926eb404fa19"
+    },
+    {
+      "id": "HG323429_srp_rna",
+      "accession": "HG323429.1",
+      "description": "Bacillus subtilis signal recognition particle RNA",
+      "path": "../data/HG323429_srp_rna.fa",
+      "length": 270,
+      "file_sha256": "68e9fecc3ee7a7a928cadacf27bd9ccbabc672def02bf5eae0a55ab711458ff1",
+      "sequence_sha256": "ccd6577793590e0e38a64f04be1d1e94c377804e724111f115648fa044981b13"
+    },
+    {
+      "id": "7UO1_B_rnase_p_rna",
+      "accession": "7UO1_B",
+      "description": "Escherichia coli RNase P RNA (M1 RNA)",
+      "path": "../data/7UO1_B_rnase_p_rna.fa",
+      "length": 373,
+      "file_sha256": "43dd5c0dcf95213dad23eb186a68c85760c90dafefa154583ce88eafafae3589",
+      "sequence_sha256": "7c5ee6af2f8d3996e548889990796b82b56be931d619e0dd199a82ed5a2d4509"
+    },
+    {
+      "id": "NC_045512.2",
+      "accession": "NC_045512.2",
+      "description": "SARS-CoV-2 isolate Wuhan-Hu-1, complete genome",
+      "path": "../data/NC_045512.2.fa",
+      "length": 29903,
+      "file_sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e",
+      "sequence_sha256": "d221b74def202fe4a77e14ce8695bfa5cbc7d5056ce4c8a98dafee8c2e0ab344"
+    }
+  ],
+  "tiers": {
+    "short": {
+      "sequences": [
+        "M10263_trna_phe",
+        "4KQY_A_sam1_riboswitch",
+        "HG323429_srp_rna",
+        "7UO1_B_rnase_p_rna"
+      ],
+      "reference": {"mode": "exact", "samples": 100000},
+      "estimate": {"beam": 100, "samples": [100, 1000, 10000], "replicates": 20}
+    },
+    "genome": {
+      "sequence": "NC_045512.2",
+      "reference": {"mode": "linear", "beam": 100, "samples": 100000},
+      "estimate": {"beam": 100, "samples": [1000, 10000], "replicates": 5},
+      "linracc_beam": 200
+    }
+  }
+}

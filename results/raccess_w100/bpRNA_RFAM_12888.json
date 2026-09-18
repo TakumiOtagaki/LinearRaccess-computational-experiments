@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_RFAM_12888",
+  "seq_length": 174,
+  "method": "raccess-w100",
+  "max_span": 100,
+  "elapsed_sec": 0.15,
+  "memory_kb": 6144,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

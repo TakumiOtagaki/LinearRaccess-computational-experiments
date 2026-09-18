@@ -1,0 +1,21 @@
+{
+  "evidence_scope": "Beam-width convergence of the SARS-CoV-2 genome's ensemble free energy (Gensemble), supporting the new Results §3.3 figure. Methodological consistency check, not an accuracy claim (no exact genome-scale reference exists).",
+  "engine": "raccess",
+  "energy_model": "turner1999",
+  "ensemble_free_energy_kcal_mol_by_beam": {
+    "5": -7191.18,
+    "10": -8004.63,
+    "25": -8867.98,
+    "50": -9272.71,
+    "100": -9529.57,
+    "200": -9698.21
+  },
+  "successive_deltas_kcal_mol": {
+    "5_to_10": -813.45,
+    "10_to_25": -863.35,
+    "25_to_50": -404.73,
+    "50_to_100": -256.86,
+    "100_to_200": -168.64
+  },
+  "conclusion": "Gensemble decreases monotonically with beam width, with clearly diminishing increments (-813 kcal/mol from b=5 to 10, -257 from b=50 to 100, -169 from b=100 to 200 -- a 34% smaller step despite spanning twice the beam-width range). Not fully plateaued by beam=200, but the deceleration indicates the ensemble is approaching convergence, consistent with the same qualitative behavior reported for LinearCapR's own beam-width diagnostic (Otagaki2026-ev, Figure 7) on the same genome."
+}

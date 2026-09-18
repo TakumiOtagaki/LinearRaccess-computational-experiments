@@ -1,0 +1,196 @@
+{
+  "accounting": {
+    "exit_status": {
+      "0": 27
+    },
+    "failed": {
+      "0": 27
+    },
+    "maxvmem_raw": {
+      "1.002G": 1,
+      "1.259G": 1,
+      "1.804G": 1,
+      "129.352M": 1,
+      "129.746M": 1,
+      "152.590M": 1,
+      "161.887M": 1,
+      "168.340M": 1,
+      "172.320M": 1,
+      "174.629M": 1,
+      "179.582M": 1,
+      "184.781M": 1,
+      "191.332M": 1,
+      "196.000M": 1,
+      "2.315G": 1,
+      "203.117M": 1,
+      "240.523M": 1,
+      "289.113M": 1,
+      "294.188M": 1,
+      "299.191M": 1,
+      "300.566M": 1,
+      "301.812M": 1,
+      "322.703M": 1,
+      "349.859M": 1,
+      "381.207M": 1,
+      "488.152M": 1,
+      "878.953M": 1
+    },
+    "tasks": 27
+  },
+  "elapsed_sec": {
+    "max": 24.0,
+    "mean": 0.5236542224609599,
+    "median": 0.0,
+    "min": 0.0,
+    "n": 26063,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 15.0,
+    "sum": 13648.0
+  },
+  "elapsed_zero_count": 20923,
+  "families": {
+    "CRW": 3420,
+    "PDB": 65,
+    "RFAM": 21557,
+    "RNP": 246,
+    "SPR": 207,
+    "SRP": 333,
+    "tmRNA": 235
+  },
+  "issues": {
+    "probability_out_of_range": 43775
+  },
+  "job_id": "8661385",
+  "lengths_nt": {
+    "max": 4381,
+    "mean": 193.13640026090627,
+    "median": 102,
+    "min": 50,
+    "n": 26063,
+    "p90": 292.0,
+    "p95": 416.0,
+    "p99": 2883.380000000001,
+    "sum": 5033714
+  },
+  "limitations": [
+    "No reference comparison: range and coverage checks do not establish numerical accuracy.",
+    "elapsed_sec uses integer wall-clock timestamps during 10-way concurrency; zero means below timestamp resolution, not zero cost.",
+    "Sum of per-sequence elapsed times is neither job wall time nor CPU time.",
+    "No per-sequence peak RSS instrumentation. qacct maxvmem is task-level virtual memory, not per-sequence RSS.",
+    "prob_sum warnings concern structural-profile normalization in the current source; they need separate numerical investigation.",
+    "Output source_revision is unknown; current executable/source hashes do not prove the historical executable identity."
+  ],
+  "log_warnings": {
+    "max": 0.99,
+    "min": 6.76041e-19,
+    "other_nonempty_lines": 0,
+    "prob_sum_count": 1734876,
+    "sequences": 24733
+  },
+  "output_metadata": {
+    "access_lens": {
+      "1,3,7,10": 26063
+    },
+    "beam": {
+      "100": 26063
+    },
+    "c_hairpin": {
+      "30": 26063
+    },
+    "c_multi": {
+      "30": 26063
+    },
+    "effective_energy_model": {
+      "turner2004": 26063
+    },
+    "engine": {
+      "lincapr": 26063
+    },
+    "experimental_hybrid": {
+      "false": 26063
+    },
+    "folding_rt": {
+      "0.61632077549999997": 26063
+    },
+    "length_factor": {
+      "0": 26063
+    },
+    "linearraccess_metadata": {
+      "1": 26063
+    },
+    "logsumexp": {
+      "fast": 26063
+    },
+    "normalize_profiles": {
+      "true": 26063
+    },
+    "output_mode": {
+      "probability": 26063
+    },
+    "output_rt": {
+      "0.61633008": 26063
+    },
+    "requested_energy_model": {
+      "turner2004": 26063
+    },
+    "software_version": {
+      "0.1.0": 26063
+    },
+    "source_revision": {
+      "unknown": 26063
+    },
+    "value": {
+      "probability": 26063
+    }
+  },
+  "probabilities": {
+    "1": {
+      "above_one": 30058,
+      "count": 5033714,
+      "max": 1.0008694774018474,
+      "min": 2.7641741045563668e-12,
+      "negative": 0,
+      "one": 18,
+      "outside_tolerance_1e_12": 29869,
+      "outside_tolerance_1e_6": 28796,
+      "zero": 0
+    },
+    "3": {
+      "above_one": 4969,
+      "count": 4981588,
+      "max": 1.0007065994936344,
+      "min": -1.85715712909968e-13,
+      "negative": 5,
+      "one": 6,
+      "outside_tolerance_1e_12": 4948,
+      "outside_tolerance_1e_6": 4795,
+      "zero": 0
+    },
+    "7": {
+      "above_one": 43,
+      "count": 4877336,
+      "max": 1.0002046298491085,
+      "min": -6.956830649584723e-14,
+      "negative": 1834,
+      "one": 0,
+      "outside_tolerance_1e_12": 43,
+      "outside_tolerance_1e_6": 43,
+      "zero": 0
+    },
+    "10": {
+      "above_one": 0,
+      "count": 4799147,
+      "max": 0.9999859811899562,
+      "min": -3.760203251740358e-14,
+      "negative": 6866,
+      "one": 0,
+      "outside_tolerance_1e_12": 0,
+      "outside_tolerance_1e_6": 0,
+      "zero": 0
+    }
+  },
+  "schema_version": 1,
+  "sequences": 26063,
+  "validation_passed": false
+}

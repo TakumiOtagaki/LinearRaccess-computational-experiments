@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_RNP_18",
+  "seq_length": 304,
+  "method": "raccess-exact",
+  "max_span": 304,
+  "elapsed_sec": 0.58,
+  "memory_kb": 13956,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

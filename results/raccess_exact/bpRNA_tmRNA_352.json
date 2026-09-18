@@ -1,0 +1,10 @@
+{
+  "seq_id": "bpRNA_tmRNA_352",
+  "seq_length": 388,
+  "method": "raccess-exact",
+  "max_span": 388,
+  "elapsed_sec": 1.2,
+  "memory_kb": 17884,
+  "status": "SUCCESS",
+  "exit_code": 0
+}

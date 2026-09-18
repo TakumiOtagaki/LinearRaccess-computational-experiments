@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "status": "DEPRECATED",
+  "job_id": "8661385",
+  "reason": "validation_passed=false and source_revision=unknown; see DEPRECATED.md and docs/bprna_audit_8661385.md",
+  "superseded_by": "benchmark/results/bprna_runs/8666393"
+}

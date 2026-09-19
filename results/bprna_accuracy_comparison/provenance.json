@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "description": "Per-cell accessibility outputs backing Table 1, Figure 2, and Supplementary S1/S3's default-beam accuracy analyses: LinearRaccess (beam=100), Raccess Exact (max_span=sequence length), and Raccess Window (max_span=100), all run under the raccess-compatibility engine and Turner 1999 parameters so LinearRaccess and Raccess agree on the reference energy model, on 12,872 bpRNA-1m(90) sequences (100-1,000 nt).",
+  "sequence_list": "benchmark/data/bprna_100_1000_list.txt",
+  "n_sequences": 12872,
+  "settings": {
+    "access_lens": [1, 3, 7, 10],
+    "linearraccess": {"beam": 100, "c_multi": 30, "c_hairpin": 30, "engine": "raccess", "energy": "turner1999"},
+    "raccess_exact": {"max_span": "sequence length (unrestricted)"},
+    "raccess_window": {"max_span": 100}
+  },
+  "software": {
+    "linearraccess_source_revision": "892c93c80f4081b5a30f27901e7c16c25cac2088",
+    "raccess_source_revision": "ad29d098b62606aa4051951469780b4e7be54536"
+  },
+  "layout": {
+    "exact/<seq_id>.txt": "Raccess Exact raw per-cell energies (max_span=length)",
+    "linear_b100/<seq_id>.txt": "LinearRaccess (beam=100) raw per-cell probabilities",
+    "linear_b200/<seq_id>.txt": "LinearRaccess (beam=200) raw per-cell probabilities, used by Supplementary S1's failure-subset re-check",
+    "window_w100/<seq_id>.txt": "Raccess Window (max_span=100) raw per-cell energies",
+    "<seq_id>_summary.json": "per-sequence run metadata (status, exit code, peak memory) -- no accessibility values",
+    "diagnostics/": "exploratory plots from earlier analysis passes, not cited by the manuscript",
+    "summary.json": "aggregate per-bin/pooled median absolute error for Table 1 (computed by benchmark/scripts/compute_bprna_accuracy_summary.py from the raw per-cell files above)"
+  },
+  "note": "The raw per-cell files (exact/, linear_b100/, linear_b200/, window_w100/) are gitignored (regenerable from the pinned software revisions above); only summary.json and this provenance.json are tracked. Figure 2's scatter plot and Supplementary S1's split/failure-subset statistics read the raw per-cell files directly and therefore require regenerating this bundle locally, unlike Table 1, which is fully supported by the tracked summary.json."
+}

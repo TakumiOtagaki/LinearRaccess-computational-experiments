@@ -1,0 +1,8867 @@
+{
+  "schema_version": 1,
+  "task_id": 9,
+  "finished_utc": "2026-09-19T06:29:52.803137+00:00",
+  "batch_sha256": "52dfcd76e295eda5dd706d5372e661f2415dc66ebceb1e07458fc5d045f7f18f",
+  "raccess_sha256": "fe30cdc9af57fb2c198cd778434b1c998c6f96f3a44abadd406fd879f003df2a",
+  "access_len": "1,3,7,10",
+  "n_sequences": 1265,
+  "n_failed": 0,
+  "records": [
+    {
+      "seq_id": "bpRNA_RFAM_26437",
+      "length": 184,
+      "elapsed_sec": 0.31,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26439",
+      "length": 190,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26441",
+      "length": 138,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26443",
+      "length": 138,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26444",
+      "length": 122,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26445",
+      "length": 123,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26446",
+      "length": 120,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26447",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26448",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26449",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26451",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26452",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26453",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26454",
+      "length": 85,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26456",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26458",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26459",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26462",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26466",
+      "length": 140,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26467",
+      "length": 132,
+      "elapsed_sec": 0.12,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26476",
+      "length": 132,
+      "elapsed_sec": 0.12,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26477",
+      "length": 111,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26483",
+      "length": 98,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26484",
+      "length": 98,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26487",
+      "length": 98,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26490",
+      "length": 220,
+      "elapsed_sec": 0.38,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26491",
+      "length": 223,
+      "elapsed_sec": 0.38,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26493",
+      "length": 225,
+      "elapsed_sec": 0.4,
+      "peak_rss_mb": 9.21484375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26494",
+      "length": 429,
+      "elapsed_sec": 2.0,
+      "peak_rss_mb": 20.703125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26497",
+      "length": 158,
+      "elapsed_sec": 0.18,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26500",
+      "length": 158,
+      "elapsed_sec": 0.18,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26503",
+      "length": 188,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26508",
+      "length": 99,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26511",
+      "length": 225,
+      "elapsed_sec": 0.49,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26515",
+      "length": 116,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26516",
+      "length": 115,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26518",
+      "length": 84,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26519",
+      "length": 84,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26523",
+      "length": 84,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26531",
+      "length": 149,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26536",
+      "length": 535,
+      "elapsed_sec": 3.66,
+      "peak_rss_mb": 30.51953125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26537",
+      "length": 133,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26538",
+      "length": 150,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26539",
+      "length": 152,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26541",
+      "length": 147,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26543",
+      "length": 150,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26544",
+      "length": 133,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26545",
+      "length": 148,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26546",
+      "length": 143,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26547",
+      "length": 154,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26548",
+      "length": 151,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26549",
+      "length": 149,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26550",
+      "length": 147,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26552",
+      "length": 145,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26553",
+      "length": 150,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26554",
+      "length": 141,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26555",
+      "length": 128,
+      "elapsed_sec": 0.12,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26557",
+      "length": 362,
+      "elapsed_sec": 1.37,
+      "peak_rss_mb": 17.69140625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26558",
+      "length": 348,
+      "elapsed_sec": 1.27,
+      "peak_rss_mb": 15.25390625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26559",
+      "length": 362,
+      "elapsed_sec": 1.38,
+      "peak_rss_mb": 16.2578125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26560",
+      "length": 360,
+      "elapsed_sec": 1.37,
+      "peak_rss_mb": 15.80859375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26561",
+      "length": 261,
+      "elapsed_sec": 0.66,
+      "peak_rss_mb": 12.46875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26562",
+      "length": 264,
+      "elapsed_sec": 0.66,
+      "peak_rss_mb": 12.66796875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26565",
+      "length": 495,
+      "elapsed_sec": 3.06,
+      "peak_rss_mb": 25.51953125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26570",
+      "length": 493,
+      "elapsed_sec": 3.11,
+      "peak_rss_mb": 25.6484375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26571",
+      "length": 171,
+      "elapsed_sec": 0.24,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26575",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26576",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26579",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26582",
+      "length": 213,
+      "elapsed_sec": 0.4,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26583",
+      "length": 220,
+      "elapsed_sec": 0.44,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26584",
+      "length": 220,
+      "elapsed_sec": 0.41,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26585",
+      "length": 200,
+      "elapsed_sec": 0.33,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26587",
+      "length": 254,
+      "elapsed_sec": 0.58,
+      "peak_rss_mb": 12.3515625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26588",
+      "length": 255,
+      "elapsed_sec": 0.59,
+      "peak_rss_mb": 9.7421875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26590",
+      "length": 510,
+      "elapsed_sec": 3.02,
+      "peak_rss_mb": 26.3828125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26599",
+      "length": 150,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26600",
+      "length": 150,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26601",
+      "length": 148,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26602",
+      "length": 95,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26606",
+      "length": 97,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26612",
+      "length": 175,
+      "elapsed_sec": 0.23,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26613",
+      "length": 150,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26614",
+      "length": 145,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26615",
+      "length": 150,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26618",
+      "length": 151,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26619",
+      "length": 149,
+      "elapsed_sec": 0.18,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26620",
+      "length": 100,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26626",
+      "length": 181,
+      "elapsed_sec": 0.24,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26631",
+      "length": 106,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26635",
+      "length": 134,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26636",
+      "length": 131,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26637",
+      "length": 239,
+      "elapsed_sec": 0.49,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26642",
+      "length": 163,
+      "elapsed_sec": 0.19,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26643",
+      "length": 163,
+      "elapsed_sec": 0.19,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26647",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26649",
+      "length": 69,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26653",
+      "length": 121,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26655",
+      "length": 121,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26665",
+      "length": 529,
+      "elapsed_sec": 3.42,
+      "peak_rss_mb": 29.15234375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26667",
+      "length": 183,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26668",
+      "length": 188,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26669",
+      "length": 186,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26670",
+      "length": 182,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26671",
+      "length": 180,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26672",
+      "length": 185,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26673",
+      "length": 178,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26674",
+      "length": 177,
+      "elapsed_sec": 0.25,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26675",
+      "length": 180,
+      "elapsed_sec": 0.26,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26676",
+      "length": 182,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26677",
+      "length": 189,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26680",
+      "length": 185,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26681",
+      "length": 177,
+      "elapsed_sec": 0.25,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26682",
+      "length": 186,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26683",
+      "length": 181,
+      "elapsed_sec": 0.3,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26684",
+      "length": 189,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26685",
+      "length": 185,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26686",
+      "length": 181,
+      "elapsed_sec": 0.26,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26688",
+      "length": 247,
+      "elapsed_sec": 0.56,
+      "peak_rss_mb": 12.171875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26692",
+      "length": 328,
+      "elapsed_sec": 0.94,
+      "peak_rss_mb": 15.1875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26701",
+      "length": 151,
+      "elapsed_sec": 0.18,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26702",
+      "length": 147,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26704",
+      "length": 147,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26707",
+      "length": 147,
+      "elapsed_sec": 0.17,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26708",
+      "length": 157,
+      "elapsed_sec": 0.18,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26709",
+      "length": 195,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26710",
+      "length": 197,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26711",
+      "length": 187,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26712",
+      "length": 192,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26713",
+      "length": 196,
+      "elapsed_sec": 0.28,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26714",
+      "length": 212,
+      "elapsed_sec": 0.35,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26715",
+      "length": 190,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26717",
+      "length": 192,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26718",
+      "length": 212,
+      "elapsed_sec": 0.38,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26719",
+      "length": 217,
+      "elapsed_sec": 0.39,
+      "peak_rss_mb": 9.1953125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26720",
+      "length": 190,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26721",
+      "length": 187,
+      "elapsed_sec": 0.27,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26724",
+      "length": 193,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26725",
+      "length": 202,
+      "elapsed_sec": 0.31,
+      "peak_rss_mb": 9.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26726",
+      "length": 182,
+      "elapsed_sec": 0.24,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26727",
+      "length": 198,
+      "elapsed_sec": 0.29,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26728",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26729",
+      "length": 117,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26731",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26732",
+      "length": 117,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26733",
+      "length": 115,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26734",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26735",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26736",
+      "length": 117,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26737",
+      "length": 117,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26738",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26740",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26742",
+      "length": 117,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26743",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26744",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26745",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26748",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26749",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26750",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26751",
+      "length": 117,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26752",
+      "length": 117,
+      "elapsed_sec": 0.1,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26804",
+      "length": 111,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26807",
+      "length": 153,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26808",
+      "length": 148,
+      "elapsed_sec": 0.12,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26809",
+      "length": 149,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26810",
+      "length": 153,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26811",
+      "length": 165,
+      "elapsed_sec": 0.16,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26812",
+      "length": 163,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26814",
+      "length": 150,
+      "elapsed_sec": 0.15,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26815",
+      "length": 150,
+      "elapsed_sec": 0.14,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26817",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26818",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26819",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26820",
+      "length": 335,
+      "elapsed_sec": 1.06,
+      "peak_rss_mb": 16.1796875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26821",
+      "length": 331,
+      "elapsed_sec": 1.02,
+      "peak_rss_mb": 13.3359375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26822",
+      "length": 283,
+      "elapsed_sec": 0.69,
+      "peak_rss_mb": 13.63671875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26823",
+      "length": 331,
+      "elapsed_sec": 1.07,
+      "peak_rss_mb": 14.13671875,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26824",
+      "length": 302,
+      "elapsed_sec": 0.86,
+      "peak_rss_mb": 13.8203125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26825",
+      "length": 318,
+      "elapsed_sec": 0.93,
+      "peak_rss_mb": 14.1015625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26826",
+      "length": 315,
+      "elapsed_sec": 0.93,
+      "peak_rss_mb": 14.3515625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26827",
+      "length": 313,
+      "elapsed_sec": 0.93,
+      "peak_rss_mb": 13.83984375,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26828",
+      "length": 296,
+      "elapsed_sec": 0.76,
+      "peak_rss_mb": 12.55078125,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26829",
+      "length": 287,
+      "elapsed_sec": 0.73,
+      "peak_rss_mb": 12.5390625,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26830",
+      "length": 110,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26832",
+      "length": 108,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26833",
+      "length": 110,
+      "elapsed_sec": 0.09,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26834",
+      "length": 89,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26836",
+      "length": 89,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26837",
+      "length": 84,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26838",
+      "length": 84,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26839",
+      "length": 87,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26840",
+      "length": 87,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26841",
+      "length": 90,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26842",
+      "length": 88,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26843",
+      "length": 87,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26844",
+      "length": 88,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26846",
+      "length": 93,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26848",
+      "length": 85,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26849",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26852",
+      "length": 87,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26853",
+      "length": 96,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26854",
+      "length": 86,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26855",
+      "length": 87,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26857",
+      "length": 58,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26859",
+      "length": 95,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26860",
+      "length": 95,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26861",
+      "length": 100,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26862",
+      "length": 94,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26863",
+      "length": 95,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26864",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26865",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26866",
+      "length": 70,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26868",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26869",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26871",
+      "length": 67,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26873",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26874",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26876",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26878",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26879",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26880",
+      "length": 69,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26883",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26884",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26886",
+      "length": 136,
+      "elapsed_sec": 0.13,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26887",
+      "length": 171,
+      "elapsed_sec": 0.23,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26888",
+      "length": 173,
+      "elapsed_sec": 0.25,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26889",
+      "length": 106,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26890",
+      "length": 104,
+      "elapsed_sec": 0.08,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26891",
+      "length": 136,
+      "elapsed_sec": 0.11,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26893",
+      "length": 62,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26894",
+      "length": 62,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26895",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26897",
+      "length": 69,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26898",
+      "length": 68,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26900",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26902",
+      "length": 67,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26903",
+      "length": 67,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26904",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26905",
+      "length": 68,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26906",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26907",
+      "length": 66,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26908",
+      "length": 67,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26909",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26911",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26913",
+      "length": 70,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26914",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26916",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26917",
+      "length": 68,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26918",
+      "length": 68,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26920",
+      "length": 70,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26921",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26923",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26924",
+      "length": 70,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26925",
+      "length": 71,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26926",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26927",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26928",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26929",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26930",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26931",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26932",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26933",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26934",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26936",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26937",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26938",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26939",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26941",
+      "length": 65,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26942",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26943",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26944",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26945",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26946",
+      "length": 70,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26947",
+      "length": 69,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26948",
+      "length": 68,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26949",
+      "length": 65,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26951",
+      "length": 68,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26952",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26953",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26954",
+      "length": 70,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26955",
+      "length": 69,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26956",
+      "length": 69,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26957",
+      "length": 69,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26958",
+      "length": 67,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26959",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26961",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26962",
+      "length": 68,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26964",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26965",
+      "length": 67,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26966",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26968",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26970",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26971",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26972",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26974",
+      "length": 65,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26975",
+      "length": 62,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26977",
+      "length": 64,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26978",
+      "length": 62,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26979",
+      "length": 62,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26980",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26981",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26982",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26983",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26985",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26987",
+      "length": 68,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26988",
+      "length": 70,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26989",
+      "length": 70,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_RFAM_26990",
+      "length": 70,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25848",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25855",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25856",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25867",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25869",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25876",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25894",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25904",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25905",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25917",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25926",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25937",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25941",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25942",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25975",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25984",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25992",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25995",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_25999",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26004",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26018",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26023",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26027",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26028",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26029",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26030",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26032",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26037",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26046",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26054",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26057",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26058",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26113",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26118",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26129",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26132",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26141",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26151",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26162",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26167",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26170",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26191",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26194",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26200",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26216",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26224",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26227",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26239",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26268",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26291",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26328",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26342",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26349",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26417",
+      "length": 93,
+      "elapsed_sec": 0.07,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26432",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26439",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26445",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26463",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26467",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26468",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26472",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26473",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26476",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26494",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26519",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26539",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26559",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26563",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26575",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26578",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26585",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26604",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26614",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26618",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26619",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26621",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26622",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26625",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26642",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26654",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26659",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26665",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26671",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26673",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26701",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26713",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26716",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26722",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26729",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26737",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26751",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26752",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26776",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26781",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26787",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26790",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26796",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26806",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26808",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26841",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26842",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26856",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26859",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26860",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26861",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26866",
+      "length": 81,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26872",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26878",
+      "length": 82,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26887",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26889",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26899",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26923",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26926",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26943",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26981",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_26986",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27022",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27026",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27031",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27042",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27050",
+      "length": 66,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27093",
+      "length": 52,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27140",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27142",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27175",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27182",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27200",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27230",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27240",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27244",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27302",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27369",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27386",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27397",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27412",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27413",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27431",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27433",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27435",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27440",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27459",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27522",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27524",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27533",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27546",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27548",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27555",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27567",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27614",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27621",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27622",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27677",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27706",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27723",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27732",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27750",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27775",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27783",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27791",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27793",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27801",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27831",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27832",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27860",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27916",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_27920",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28002",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28004",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28008",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28015",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28016",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28036",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28040",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28043",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28044",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28045",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28046",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28047",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28053",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28057",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28059",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28061",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28063",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28067",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28069",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28070",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28071",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28073",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28074",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28078",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28079",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28091",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28092",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28094",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28099",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28102",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28103",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28111",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28115",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28126",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28131",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28137",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28142",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28145",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28147",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28148",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28149",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28155",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28161",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28163",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28164",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28174",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28177",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28183",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28215",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28259",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28268",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28272",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28280",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28281",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28284",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28300",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28302",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28307",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28311",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28312",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28316",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28317",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28330",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28333",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28342",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28349",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28350",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28354",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28357",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28361",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28373",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28376",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28378",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28384",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28391",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28392",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28393",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28394",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28396",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28398",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28401",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28404",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28419",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28422",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28426",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28429",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28430",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28432",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28435",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28436",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28438",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28450",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28451",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28452",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28453",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28461",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28463",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28468",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28472",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28473",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28476",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28481",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28494",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28503",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28515",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28531",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28533",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28534",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28541",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28543",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28633",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28662",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28667",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28699",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28702",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28721",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28723",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28734",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28756",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28768",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28774",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28779",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28780",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28785",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28794",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28796",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28798",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28799",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28802",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28803",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28806",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28815",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28832",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28838",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28847",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28848",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28859",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28867",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28880",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28897",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28904",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28926",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28945",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28947",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28955",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28985",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28986",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28993",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28995",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_28997",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29002",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29003",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29008",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29015",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29016",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29018",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29019",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29024",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29027",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29028",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29029",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29033",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29063",
+      "length": 80,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29128",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29129",
+      "length": 81,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29143",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29200",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29202",
+      "length": 64,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29217",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29238",
+      "length": 52,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29251",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29252",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29258",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29259",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29262",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29267",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29269",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29280",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29282",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29302",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29309",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29315",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29323",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29349",
+      "length": 83,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29365",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29371",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29380",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29383",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29388",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29407",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29419",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29421",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29427",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29428",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29441",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29470",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29503",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29546",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29569",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29576",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29621",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29630",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29652",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29653",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29685",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29686",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29715",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29744",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29746",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29756",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29770",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29896",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29909",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29913",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29924",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29926",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29927",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29929",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29931",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29949",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29961",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29965",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29966",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29967",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29968",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29972",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_29996",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30007",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30041",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30042",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30043",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30044",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30050",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30053",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30073",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30084",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30086",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30096",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30160",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30163",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30166",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30168",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30186",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30236",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30292",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30293",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30302",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30304",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30319",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30345",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30346",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30356",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30357",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30366",
+      "length": 63,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30403",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30430",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30435",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30437",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30475",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30548",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30579",
+      "length": 81,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30630",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30631",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30634",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30635",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30671",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30684",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30689",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30695",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30702",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30703",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30709",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30711",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30712",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30714",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30716",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30717",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30719",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30721",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30722",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30725",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30726",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30727",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30732",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30744",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30747",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30751",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30752",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30762",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30763",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30765",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30774",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30777",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30778",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30782",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30783",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30801",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30807",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30817",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30818",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30821",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30822",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30823",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30830",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30834",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30835",
+      "length": 78,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30836",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30837",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30855",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30866",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30867",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30868",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30869",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30875",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30876",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30879",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30883",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30884",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30889",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30891",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30892",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30893",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30907",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30912",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30917",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30920",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30921",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30924",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30926",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30927",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30931",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30941",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30943",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30945",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30951",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30954",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30968",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30983",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30984",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30988",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30991",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_30996",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31004",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31023",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31024",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31060",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31070",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31071",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31077",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31082",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31084",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31096",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31097",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31113",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31118",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31123",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31125",
+      "length": 75,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31126",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31137",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31140",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31148",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31159",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31172",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31173",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31182",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31193",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31204",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31224",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31254",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31256",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31266",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31269",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31270",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31272",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31278",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31279",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31290",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31295",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31302",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31305",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31307",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31309",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31310",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31311",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31312",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31319",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31321",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31335",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31338",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31339",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31340",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31341",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31344",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31345",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31386",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31391",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31392",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31393",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31396",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31399",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31400",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31403",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31405",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31416",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31417",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31424",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31425",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31427",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31430",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31436",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31441",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31443",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31445",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31458",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31464",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31477",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31480",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31481",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31482",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31488",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31489",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31500",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31507",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31531",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31532",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31560",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31580",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31586",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31595",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31599",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31652",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31657",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31661",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31680",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31683",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31691",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31710",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31716",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31722",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31768",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31803",
+      "length": 70,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31815",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31823",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31824",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31827",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31837",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31841",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31852",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31870",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31871",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31875",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31878",
+      "length": 80,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31881",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31885",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31887",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31888",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31889",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31890",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31891",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31892",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31899",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31901",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31902",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31909",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31923",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31925",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31927",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31950",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31951",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31962",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31963",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31970",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31975",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31978",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31979",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31980",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31987",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31990",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31992",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_31994",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32003",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32019",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32020",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32075",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32077",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32083",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32098",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32099",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32100",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32101",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32115",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32134",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32142",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32144",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32145",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32146",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32155",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32162",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32169",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32196",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32202",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32212",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32214",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32218",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32234",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32235",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32244",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32256",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32258",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32266",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32301",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32313",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32314",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32315",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32330",
+      "length": 82,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32352",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32354",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32355",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32360",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32361",
+      "length": 81,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32383",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32391",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32408",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32409",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32410",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32412",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32430",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32431",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32433",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32435",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32440",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32442",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32467",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32476",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32507",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32508",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32514",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32557",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32570",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32574",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32575",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32576",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32583",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32592",
+      "length": 84,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32595",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32596",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32597",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32602",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32608",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32613",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32614",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32619",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32679",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32681",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32725",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32728",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32801",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32806",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32855",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32870",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32877",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32907",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32923",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32958",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32975",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_32990",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33001",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33002",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33006",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33035",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33038",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33082",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33111",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33123",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33146",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33148",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33151",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33203",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33205",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33216",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33218",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33220",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33224",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33236",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33238",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33255",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33260",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33265",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33266",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33271",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33274",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33280",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33320",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33339",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33358",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33361",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33362",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33363",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33364",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33377",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33397",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33398",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33406",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33407",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33414",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33415",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33436",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33439",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33453",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33466",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33497",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33527",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33532",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33548",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33557",
+      "length": 79,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33558",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33562",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33584",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33590",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33600",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33615",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33616",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33626",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33628",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33633",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33667",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33677",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33707",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33708",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33711",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33712",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33718",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33721",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33745",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33746",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33772",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33809",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33813",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33816",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33832",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33861",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33863",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33875",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33913",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33923",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33928",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33956",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33957",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33962",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33967",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33973",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33989",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_33992",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34003",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34013",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34016",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34071",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34072",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34073",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34076",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34103",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34110",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34111",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34140",
+      "length": 85,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34199",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34204",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34206",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34208",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34216",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34223",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34236",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34260",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34262",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34263",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34276",
+      "length": 59,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34286",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34319",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34371",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34378",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34388",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34457",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34458",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34490",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34493",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34500",
+      "length": 54,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34522",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34650",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34652",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34653",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34656",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34657",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34660",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34663",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34664",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34670",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34672",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34679",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34681",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34684",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34686",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34688",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34691",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34706",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34707",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34710",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34711",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34712",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34713",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34714",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34723",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34724",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34739",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34742",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34744",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34745",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34747",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34749",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34752",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34754",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34756",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34759",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34760",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34761",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34769",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34773",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34775",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34778",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34873",
+      "length": 50,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34921",
+      "length": 71,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34923",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34942",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34946",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34963",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34982",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34986",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34989",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_34990",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35020",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35033",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35091",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35092",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35113",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35121",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35122",
+      "length": 80,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35136",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35152",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35217",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35270",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35363",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35398",
+      "length": 59,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35402",
+      "length": 55,
+      "elapsed_sec": 0.04,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35417",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35469",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35471",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35472",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35503",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35504",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35506",
+      "length": 78,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35517",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35518",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35531",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35532",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35540",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35551",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35558",
+      "length": 79,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35563",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35584",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35599",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35610",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35612",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35614",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35615",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35618",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35619",
+      "length": 74,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35627",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35629",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35630",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35633",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35634",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35637",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35638",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35639",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35640",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35644",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35647",
+      "length": 73,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35650",
+      "length": 76,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35653",
+      "length": 77,
+      "elapsed_sec": 0.06,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35654",
+      "length": 76,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35656",
+      "length": 75,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35657",
+      "length": 77,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    },
+    {
+      "seq_id": "bpRNA_CRW_35660",
+      "length": 72,
+      "elapsed_sec": 0.05,
+      "peak_rss_mb": 6.0,
+      "ok": true
+    }
+  ]
+}

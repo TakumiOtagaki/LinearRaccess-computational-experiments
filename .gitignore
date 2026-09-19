@@ -29,6 +29,7 @@
 !/results/bprna_runs/8666393/batch_*/run_summary.json
 /results/bprna_profile_fix_20260914/raw/
 /results/bprna_accuracy_comparison/*
+!/results/bprna_accuracy_comparison/provenance.json
 !/results/bprna_accuracy_comparison/summary.json
 /results/bprna_beam_sweep_300_1000/*
 !/results/bprna_beam_sweep_300_1000/provenance.json

@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate runtime/memory statistics for Fig. 3 (Raccess Exact curve), computed from the per-batch run_summary.json files tracked alongside this file.",
+  "n_sequences": 25300,
+  "length_range": [
+    50,
+    1000
+  ],
+  "elapsed_sec_median": 0.08,
+  "elapsed_sec_max": 17.98,
+  "peak_rss_mb_max": 90.78125
+}

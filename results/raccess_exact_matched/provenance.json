@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "job_id": "8715122",
+  "description": "Raccess Exact rerun at K=4 (access_len=1,3,7,10), matching the K=4 used for LinearRaccess and Raccess Window in benchmark/results/bprna_matched_runtime, so all three methods in Fig. 3 use the same K. max_span is set to each sequence's own length (unrestricted), which is what makes this 'Exact' rather than a K setting; only run up to 1,000 nt as in the original raccess_exact bundle, since Raccess Exact's O(N^3) cost makes longer sequences impractical.",
+  "source_revision": "ad29d098b62606aa4051951469780b4e7be54536",
+  "n_batches": 20,
+  "settings": {
+    "access_len": "1,3,7,10",
+    "max_span": "sequence length (unrestricted)"
+  },
+  "aggregate": {
+    "total_sequences": 25300,
+    "total_failed": 0
+  }
+}

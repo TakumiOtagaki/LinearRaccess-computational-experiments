@@ -49,8 +49,29 @@ MARKERS = {
 }
 
 MATCHED_DIR = REPO_ROOT / "benchmark/results/bprna_matched_runtime/8714351"
-RACCESS_EXACT_DIR = REPO_ROOT / "benchmark/results/raccess_exact"
+RACCESS_EXACT_MATCHED_DIR = REPO_ROOT / "benchmark/results/raccess_exact_matched/8715122"
 OUTPUT = REPO_ROOT / "manuscript/figures/figure_runtime_memory.pdf"
+
+
+def load_raccess_exact_matched_records() -> list[dict]:
+    records: list[dict] = []
+    for batch_dir in sorted(RACCESS_EXACT_MATCHED_DIR.glob("batch_*")):
+        summary_file = batch_dir / "run_summary.json"
+        if not summary_file.exists():
+            continue
+        data = json.loads(summary_file.read_text())
+        records.extend(r for r in data.get("records", []) if r["ok"])
+    return records
+
+
+def load_raccess_exact_runtime() -> tuple[list[int], list[float]]:
+    records = load_raccess_exact_matched_records()
+    return [r["length"] for r in records], [r["elapsed_sec"] for r in records]
+
+
+def load_raccess_exact_memory() -> tuple[list[int], list[float]]:
+    records = [r for r in load_raccess_exact_matched_records() if r["peak_rss_mb"] is not None]
+    return [r["length"] for r in records], [r["peak_rss_mb"] for r in records]
 
 
 def load_matched_records() -> list[dict]:
@@ -84,44 +105,15 @@ def load_raccess_window_memory() -> tuple[list[int], list[float]]:
     return [r["length"] for r in records], [r["raccess_peak_rss_mb"] for r in records]
 
 
-def load_raccess_runtime(results_dir: Path) -> tuple[list[int], list[float]]:
-    lengths: list[int] = []
-    times: list[float] = []
-    for json_file in sorted(results_dir.glob("*.json")):
-        data = json.loads(json_file.read_text())
-        if data.get("status") == "SUCCESS":
-            lengths.append(data["seq_length"])
-            times.append(data["elapsed_sec"])
-    return lengths, times
-
-
-def load_memory_data(results_dir: Path) -> tuple[list[int], list[float]]:
-    lengths: list[int] = []
-    memory: list[float] = []
-    for summary_file in results_dir.rglob("run_summary.json"):
-        data = json.loads(summary_file.read_text())
-        for record in data.get("records", []):
-            if record.get("status") == "SUCCESS" and record.get("peak_rss_mb") is not None:
-                lengths.append(record["length"])
-                memory.append(record["peak_rss_mb"])
-    if not lengths:
-        for json_file in results_dir.glob("*.json"):
-            data = json.loads(json_file.read_text())
-            if data.get("status") == "SUCCESS" and data.get("memory_kb") is not None:
-                lengths.append(data["seq_length"])
-                memory.append(data["memory_kb"] / 1024)
-    return lengths, memory
-
-
 def main() -> int:
     runtime = {
         "LinearRaccess": load_linearraccess_runtime(),
-        "Raccess Exact": load_raccess_runtime(RACCESS_EXACT_DIR),
+        "Raccess Exact": load_raccess_exact_runtime(),
         "Raccess Window (W=100)": load_raccess_window_runtime(),
     }
     memory = {
         "LinearRaccess": load_linearraccess_memory(),
-        "Raccess Exact": load_memory_data(RACCESS_EXACT_DIR),
+        "Raccess Exact": load_raccess_exact_memory(),
         "Raccess Window (W=100)": load_raccess_window_memory(),
     }
 

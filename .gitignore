@@ -7,6 +7,7 @@
 /results/bprna_memory_runs/*
 !/results/bprna_memory_runs/8677021/
 /results/bprna_memory_runs/8677021/*
+!/results/bprna_memory_runs/8677021/DEPRECATED.md
 !/results/bprna_memory_runs/8677021/provenance.json
 !/results/bprna_memory_runs/8677021/summary.json
 !/results/bprna_memory_runs/8677021/batch_*/
@@ -19,6 +20,7 @@
 /results/bprna_runs/*
 !/results/bprna_runs/8666393/
 /results/bprna_runs/8666393/*
+!/results/bprna_runs/8666393/DEPRECATED.md
 !/results/bprna_runs/8666393/provenance.json
 !/results/bprna_runs/8666393/manifest.json
 !/results/bprna_runs/8666393/summary.json

@@ -2,9 +2,9 @@
   "evidence_scope": "Reference-method (raccess-exact) per-sequence runtime/memory results used as the Raccess side of Figure 2/3, generated on bpRNA sequences up to 1000 nt (exact) or the full bpRNA set (window).",
   "experiment_id": "raccess_exact",
   "method": "raccess-exact",
-  "sequence_count": 25301,
+  "sequence_count": 25300,
   "n_success": 25300,
-  "n_failed": 1,
+  "n_failed": 0,
   "length_range_nt": [
     50,
     1000

@@ -48,26 +48,40 @@ MARKERS = {
     "Raccess Window (W=100)": "^",
 }
 
-RUNTIME_LINRACC_DIR = REPO_ROOT / "benchmark/results/bprna_runs/8666393"
-MEMORY_LINRACC_DIR = REPO_ROOT / "benchmark/results/bprna_memory_runs/8677021"
+MATCHED_DIR = REPO_ROOT / "benchmark/results/bprna_matched_runtime/8714351"
 RACCESS_EXACT_DIR = REPO_ROOT / "benchmark/results/raccess_exact"
-RACCESS_W100_DIR = REPO_ROOT / "benchmark/results/raccess_w100"
 OUTPUT = REPO_ROOT / "manuscript/figures/figure_runtime_memory.pdf"
 
 
-def load_linearraccess_runtime(results_dir: Path) -> tuple[list[int], list[float]]:
-    lengths: list[int] = []
-    times: list[float] = []
-    for batch_dir in sorted(results_dir.glob("batch_*")):
+def load_matched_records() -> list[dict]:
+    records: list[dict] = []
+    for batch_dir in sorted(MATCHED_DIR.glob("batch_*")):
         summary_file = batch_dir / "run_summary.json"
         if not summary_file.exists():
             continue
         data = json.loads(summary_file.read_text())
-        for record in data.get("records", []):
-            if record.get("status") == "SUCCESS":
-                lengths.append(record["length"])
-                times.append(record["elapsed_sec"])
-    return lengths, times
+        records.extend(r for r in data.get("records", []) if r["linracc_ok"] and r["raccess_ok"])
+    return records
+
+
+def load_linearraccess_runtime() -> tuple[list[int], list[float]]:
+    records = load_matched_records()
+    return [r["length"] for r in records], [r["linracc_elapsed_sec"] for r in records]
+
+
+def load_raccess_window_runtime() -> tuple[list[int], list[float]]:
+    records = load_matched_records()
+    return [r["length"] for r in records], [r["raccess_elapsed_sec"] for r in records]
+
+
+def load_linearraccess_memory() -> tuple[list[int], list[float]]:
+    records = [r for r in load_matched_records() if r["linracc_peak_rss_mb"] is not None]
+    return [r["length"] for r in records], [r["linracc_peak_rss_mb"] for r in records]
+
+
+def load_raccess_window_memory() -> tuple[list[int], list[float]]:
+    records = [r for r in load_matched_records() if r["raccess_peak_rss_mb"] is not None]
+    return [r["length"] for r in records], [r["raccess_peak_rss_mb"] for r in records]
 
 
 def load_raccess_runtime(results_dir: Path) -> tuple[list[int], list[float]]:
@@ -101,14 +115,14 @@ def load_memory_data(results_dir: Path) -> tuple[list[int], list[float]]:
 
 def main() -> int:
     runtime = {
-        "LinearRaccess": load_linearraccess_runtime(RUNTIME_LINRACC_DIR),
+        "LinearRaccess": load_linearraccess_runtime(),
         "Raccess Exact": load_raccess_runtime(RACCESS_EXACT_DIR),
-        "Raccess Window (W=100)": load_raccess_runtime(RACCESS_W100_DIR),
+        "Raccess Window (W=100)": load_raccess_window_runtime(),
     }
     memory = {
-        "LinearRaccess": load_memory_data(MEMORY_LINRACC_DIR),
+        "LinearRaccess": load_linearraccess_memory(),
         "Raccess Exact": load_memory_data(RACCESS_EXACT_DIR),
-        "Raccess Window (W=100)": load_memory_data(RACCESS_W100_DIR),
+        "Raccess Window (W=100)": load_raccess_window_memory(),
     }
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))

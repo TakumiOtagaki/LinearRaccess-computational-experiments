@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate runtime/memory statistics for Fig. 3 and Results S3.3, computed from the per-batch run_summary.json files tracked alongside this file.",
+  "n_sequences": 26063,
+  "length_range": [
+    50,
+    4381
+  ],
+  "runtime": {
+    "linearraccess": {
+      "slope_sec_per_nt": 0.005859847738722965,
+      "intercept_sec": -0.556051782230677,
+      "r": 0.9966527994808565
+    },
+    "raccess_window": {
+      "slope_sec_per_nt": 0.0014808598826198784,
+      "intercept_sec": -0.06706922162383602,
+      "r": 0.998096434635264
+    },
+    "fold": 3.957057522792741
+  },
+  "memory": {
+    "linearraccess": {
+      "slope_mb_per_nt": 0.060370506817565915,
+      "intercept_mb": -2.7237002815713254,
+      "r": 0.9978368282429444,
+      "max_peak_rss_mb": 273.0,
+      "max_at_length": 4381,
+      "n": 26031
+    },
+    "raccess_window": {
+      "max_peak_rss_mb": 6.0
+    }
+  }
+}

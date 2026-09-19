@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "description": "Provenance for the matched-condition LinearRaccess vs. Raccess Window runtime comparison (see summary.json), run to correct the confounded 'roughly 6-fold' claim in the production Fig. 3 / S3.3 comparison (unequal access_len counts K=4 vs K=1, and unequal Python-side vs. executable-only timing boundaries).",
+  "command": "python3 benchmark/scripts/run_matched_runtime_comparison.py",
+  "binaries": {
+    "linracc": {
+      "path": "vendor/LinearRaccess/build-raccess/LinRacc",
+      "build_info": {"software_version": "0.1.0", "source_revision": "59b692c71aebf3f4dcc7502bd1608da095d40a75"}
+    },
+    "raccess": {
+      "path": "vendor/raccess/src/raccess/run_raccess",
+      "source_revision": "ad29d098b62606aa4051951469780b4e7be54536"
+    }
+  },
+  "input": {
+    "source_fasta": "benchmark/data/bpRNA_1m_90_filtered_clean.fa",
+    "sampling_seed": 20260919,
+    "n_sequences": 408
+  },
+  "methodology_notes": [
+    "Both tools are run with the same access_len list (1,3,7,10), matching the K=4 used everywhere else in this paper, rather than Raccess Window's usual K=1 (access_len=7 only) in the production benchmark/scripts/uge/raccess_w100_batch_job.sh.",
+    "Both tools are timed identically via '/usr/bin/time -v' wrapping only the binary invocation. This excludes the Python-side output validation, renaming, and SHA-256 hashing that benchmark/scripts/run_bprna_chunk.py includes inside its elapsed_sec for the production LinearRaccess runtime figure (Fig. 3A).",
+    "Both tools are run strictly sequentially (no ThreadPoolExecutor, no concurrent UGE array tasks), unlike the production pipelines which run LinearRaccess under 10-way thread-pool concurrency.",
+    "This bundle does not reproduce or replace the production 26,063-sequence Fig. 3 dataset (benchmark/results/bprna_runs/8666393, benchmark/results/raccess_w100); it is a smaller, controlled check of the constant-factor ratio only. Fig. 3's qualitative scaling-class conclusion (both linear in N, Raccess Exact cubic) is unaffected by the confounds this bundle corrects."
+  ]
+}

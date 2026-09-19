@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate accuracy statistics for Table 1 / Figure 2: LinearRaccess (beam=100) and Raccess Window (W=100) median absolute error against Raccess Exact, by sequence-length bin, on 12,872 bpRNA-1m(90) sequences (100-1,000 nt) at window lengths w in {1,3,7,10}. Computed from the raw per-cell outputs in exact/, linear_b100/, and window_w100/ (gitignored; regenerable from software.lock.json's pinned LinearRaccess revision and the Raccess reference commit recorded below).",
+  "software": {
+    "linearraccess_source_revision": "892c93c80f4081b5a30f27901e7c16c25cac2088",
+    "raccess_source_revision": "ad29d098b62606aa4051951469780b4e7be54536"
+  },
+  "bin_labels": [
+    "100-300",
+    "300-500",
+    "500-700",
+    "700-1000"
+  ],
+  "access_lens": [
+    1,
+    3,
+    7,
+    10
+  ],
+  "sequence_list": "benchmark/data/bprna_100_1000_list.txt",
+  "results": {
+    "linearraccess_b100": {
+      "method": "LinearRaccess (beam=100)",
+      "n_missing_sequences": 0,
+      "n_cells_compared": 9399684,
+      "by_bin": {
+        "100-300": {
+          "n_sequences": 11102,
+          "n_cells": 6377982,
+          "median_absolute_error": 2.0612699619740327e-07
+        },
+        "300-500": {
+          "n_sequences": 1442,
+          "n_cells": 2105746,
+          "median_absolute_error": 0.00023803932976555915
+        },
+        "500-700": {
+          "n_sequences": 190,
+          "n_cells": 438366,
+          "median_absolute_error": 0.00041521380604555403
+        },
+        "700-1000": {
+          "n_sequences": 138,
+          "n_cells": 477590,
+          "median_absolute_error": 0.002310064644792926
+        }
+      },
+      "pooled": {
+        "n_sequences": 12872,
+        "n_cells": 9399684,
+        "median_absolute_error": 1.541858340672333e-06
+      }
+    },
+    "raccess_window_w100": {
+      "method": "Raccess Window (W=100)",
+      "n_missing_sequences": 0,
+      "n_cells_compared": 9399684,
+      "by_bin": {
+        "100-300": {
+          "n_sequences": 11102,
+          "n_cells": 6377982,
+          "median_absolute_error": 0.0003461584487347226
+        },
+        "300-500": {
+          "n_sequences": 1442,
+          "n_cells": 2105746,
+          "median_absolute_error": 0.0032556659724681317
+        },
+        "500-700": {
+          "n_sequences": 190,
+          "n_cells": 438366,
+          "median_absolute_error": 0.003738097557645168
+        },
+        "700-1000": {
+          "n_sequences": 138,
+          "n_cells": 477590,
+          "median_absolute_error": 0.007131808377720223
+        }
+      },
+      "pooled": {
+        "n_sequences": 12872,
+        "n_cells": 9399684,
+        "median_absolute_error": 0.0008480600093621563
+      }
+    }
+  }
+}

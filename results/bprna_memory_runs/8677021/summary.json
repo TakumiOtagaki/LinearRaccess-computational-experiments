@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate peak-memory statistics for Fig. 3B, computed from the per-batch run_summary.json files tracked alongside this file (raw per-sequence LinRacc stdout/logs are gitignored; regenerable from software.lock.json's pinned revision).",
+  "n_sequences": 26063,
+  "length_range": [
+    50,
+    4381
+  ],
+  "peak_rss_mb": {
+    "max": 274.32,
+    "max_at_length": 4381,
+    "median": 5.96
+  }
+}

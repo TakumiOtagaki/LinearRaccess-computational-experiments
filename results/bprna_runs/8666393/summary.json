@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "description": "Aggregate runtime statistics for Fig. 3A (Results S3.3), computed from the per-batch run_summary.json files tracked alongside this file (raw per-sequence LinRacc stdout/output/logs are gitignored; regenerable from software.lock.json's pinned revision). elapsed_sec here includes benchmark/scripts/run_bprna_chunk.py's own output-validation and SHA-256 hashing overhead, not just the LinRacc binary invocation; see benchmark/results/matched_runtime_comparison_20260919 for an executable-only, matched-K comparison against Raccess Window.",
+  "n_sequences": 26063,
+  "length_range": [
+    50,
+    4381
+  ],
+  "regression": {
+    "slope_sec_per_nt": 0.006403403555095052,
+    "intercept_sec": -0.6029405249856354,
+    "r": 0.9927636524030675
+  }
+}

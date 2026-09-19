@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "description": "Matched-condition runtime comparison between LinearRaccess and Raccess Window, addressing codex exec's finding that the production Fig. 3/S3.3 'roughly 6-fold' comparison used unequal K (access_len count: 4 vs 1) and unequal timing boundaries (LinearRaccess's Python-side elapsed_sec includes output validation and SHA-256 hashing; Raccess Window's /usr/bin/time -v wraps only the executable). This bundle re-measures both tools with the same K=4 access_len list (1,3,7,10), the same /usr/bin/time -v timing boundary around the executable only, and strictly sequential (no thread pool / no concurrent array tasks) execution.",
+  "n_sequences": 408,
+  "length_range": [
+    50,
+    4021
+  ],
+  "sampling": "12 log-spaced length bins spanning the full bpRNA-1m(90) filtered dataset (50-4381 nt), up to 34 sequences sampled without replacement per bin (seed 20260919); 408 total.",
+  "settings": {
+    "access_len": "1,3,7,10",
+    "linearraccess": {
+      "beam": 100,
+      "c_multi": 30,
+      "c_hairpin": 30,
+      "engine": "lincapr",
+      "energy": "turner2004"
+    },
+    "raccess_window": {
+      "max_span": 100
+    }
+  },
+  "software": {
+    "linearraccess": {
+      "source_revision": "59b692c71aebf3f4dcc7502bd1608da095d40a75",
+      "release": "v0.1.0"
+    },
+    "raccess": {
+      "source_revision": "ad29d098b62606aa4051951469780b4e7be54536"
+    }
+  },
+  "regression": {
+    "linearraccess": {
+      "slope_sec_per_nt": 0.006031516355804154,
+      "intercept_sec": -0.8275477331202996,
+      "r": 0.9989149213954135
+    },
+    "raccess_window": {
+      "slope_sec_per_nt": 0.0014677121928351636,
+      "intercept_sec": -0.07714558176209607,
+      "r": 0.9982551146583979
+    },
+    "slope_ratio_fold": 4.109468045062118
+  },
+  "raw_results_sha256": "dfa8ddf0678d7c898d03d15554be3a9562d4016453a88567e05ecec62a5acf7f"
+}

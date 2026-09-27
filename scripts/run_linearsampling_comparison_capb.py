@@ -19,6 +19,12 @@ model as run_beam_sweep_vs_exact.py / run_exact_reference_si.py.
 
 Results are cached per (sequence, configuration) under WORK_DIR so either
 phase can be resumed.  Analysis is done separately from the caches.
+
+--set long: the same comparison on sequences longer than the beam, where
+pruning is active (for n <= b LinearRaccess is exact): 5 bpRNA-1m(90)
+sequences per bin of 1,000-1,500 / 1,500-2,000 / 2,000-3,000 /
+3,000-4,381 nt, in file order, with beams 100/200/500 for both tools
+(LinearSampling at k=1e6), under benchmark/results/linearsampling_comparison_long.
 """
 from __future__ import annotations
 
@@ -45,6 +51,29 @@ ACCESS_LENS = [1, 3, 7, 10, 35]
 LINRACC_BEAMS = [100, 200, 300, 500]
 LINSAMP_ACCURACY = [(b, 1_000_000) for b in (100, 200, 300, 500)] + [(100, 50_000)]
 LINSAMP_TIMING = [(100, 50_000), (100, 1_000_000), (500, 50_000), (500, 1_000_000)]
+
+LONG_FASTA = REPO_ROOT / "benchmark/data/bpRNA_1m_90_filtered_clean.fa"
+LONG_BINS = [(1000, 1500), (1500, 2000), (2000, 3000), (3000, 4382)]
+LONG_PER_BIN = 5
+
+
+def use_long_set() -> None:
+    global WORK_DIR, LINRACC, FASTA, LINRACC_BEAMS, LINSAMP_ACCURACY, LINSAMP_TIMING
+    WORK_DIR = REPO_ROOT / "benchmark/results/linearsampling_comparison_long"
+    LINRACC = WORK_DIR / "bin/LinRacc"
+    FASTA = LONG_FASTA
+    LINRACC_BEAMS = [100, 200, 500]
+    LINSAMP_ACCURACY = [(b, 1_000_000) for b in (100, 200, 500)]
+    LINSAMP_TIMING = list(LINSAMP_ACCURACY)
+
+
+def select_long(fasta: dict[str, str]) -> list[str]:
+    chosen = [[] for _ in LONG_BINS]
+    for name, seq in fasta.items():
+        for i, (lo, hi) in enumerate(LONG_BINS):
+            if lo <= len(seq) < hi and len(chosen[i]) < LONG_PER_BIN:
+                chosen[i].append(name)
+    return [n for group in chosen for n in group]
 
 
 def linracc_cmd(fa: Path, out: Path, beam: int, exact_lse: bool) -> list[str]:
@@ -117,13 +146,16 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--phase", choices=("accuracy", "timing"), required=True)
     parser.add_argument("--jobs", type=int, default=16)
+    parser.add_argument("--set", choices=("bprna52", "long"), default="bprna52")
     args = parser.parse_args()
+    if args.set == "long":
+        use_long_set()
     if not LINRACC.is_file():
         raise SystemExit(f"missing frozen binary {LINRACC}")
     (WORK_DIR / args.phase).mkdir(parents=True, exist_ok=True)
     (WORK_DIR / "tmp").mkdir(exist_ok=True)
     fasta = read_fasta_dict(FASTA)
-    chosen = [name for name, _ in select_sequences(13)]
+    chosen = select_long(fasta) if args.set == "long" else [name for name, _ in select_sequences(13)]
     tasks = [(n, c) for n in chosen for c in configs(args.phase)]
     if args.phase == "timing":
         for i, (n, c) in enumerate(tasks, 1):

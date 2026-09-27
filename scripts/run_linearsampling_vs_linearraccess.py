@@ -68,7 +68,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO_ROOT / "benchmark/scripts"))
 from run_raccess_compare import parse_linracc  # noqa: E402
 
-LINRACC = REPO_ROOT / "vendor/LinearRaccess/build/LinRacc"
+LINRACC = REPO_ROOT / "vendor/LinearRaccess/build-raccess/LinRacc"
 LINSAMP = REPO_ROOT / "vendor/LinearSampling/linearsampling"
 FASTA = REPO_ROOT / "benchmark/data/bprna_100_1000.fa"
 SEQ_LIST = REPO_ROOT / "benchmark/data/bprna_100_1000_list.txt"
@@ -142,27 +142,51 @@ def run_linracc(name: str, seq: str, tmpdir: Path) -> dict[int, dict[int, float]
     return result, elapsed
 
 
-def run_linearsampling(seq: str) -> tuple[list[str], float]:
+WINDOW_FREQ_COUNTER = REPO_ROOT / "benchmark/scripts/window_freq_counter"
+
+
+def run_linearsampling_and_accumulate(seq: str, w_list: list[int], length: int):
+    """Pipe LinearSampling directly into window_freq_counter (a small
+    compiled C++ helper, benchmark/scripts/window_freq_counter.cpp), which
+    does the per-sample maximal-unpaired-run scan and difference-array
+    accumulation (same idea as this paper's own Algorithm 2). Three
+    pure-Python versions of this were tried and measured on a ~480-nt,
+    k=5,000,000 test case before settling on this: a naive per-window slice
+    check (too slow to finish inside a 3-hour walltime), a per-character
+    while-loop run-scan (264.6s), and an re.finditer-based run-scan
+    (187.2s) -- all far slower than LinearSampling's own raw execution time
+    (30.6s). This C++ pipeline takes 27.0s, i.e. Python-level per-sample
+    work was the actual bottleneck at this k, not node speed or LinearSampling
+    itself. Only orchestration (launching the pipeline, parsing its small
+    (length-w+1)-per-w text output) stays in Python."""
+    valid_ws = [w for w in w_list if length - w + 1 > 0]
     t0 = time.perf_counter()
-    proc = subprocess.run(
+    linsamp_proc = subprocess.Popen(
         [str(LINSAMP), "-k", str(K_SAMPLES), "-b", str(BEAM)],
-        input=seq + "\n", capture_output=True, text=True, check=True,
+        stdin=subprocess.PIPE, stdout=subprocess.PIPE,
     )
+    tail_proc = subprocess.Popen(["tail", "-n", "+2"], stdin=linsamp_proc.stdout, stdout=subprocess.PIPE)
+    linsamp_proc.stdout.close()
+    counter_proc = subprocess.Popen(
+        [str(WINDOW_FREQ_COUNTER), str(length), ",".join(map(str, valid_ws))],
+        stdin=tail_proc.stdout, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+    )
+    tail_proc.stdout.close()
+    linsamp_proc.stdin.write((seq + "\n").encode())
+    linsamp_proc.stdin.close()
+    out, err = counter_proc.communicate()
     elapsed = time.perf_counter() - t0
-    lines = [l.strip() for l in proc.stdout.splitlines() if l.strip()]
-    structures = [l for l in lines if set(l) <= set("().")]
-    return structures, elapsed
+    for p in (linsamp_proc, tail_proc, counter_proc):
+        p.wait()
+        if p.returncode != 0:
+            raise subprocess.CalledProcessError(p.returncode, p.args)
+    n_samples = int(err.strip().rsplit("=", 1)[1])
 
-
-def window_freq(structures: list[str], w: int, length: int) -> list[float]:
-    n = length - w + 1
-    counts = [0] * n
-    for s in structures:
-        for start in range(n):
-            if all(c == "." for c in s[start:start + w]):
-                counts[start] += 1
-    k = len(structures)
-    return [c / k for c in counts]
+    result = {w: [0.0] * (length - w + 1) for w in valid_ws}
+    for line in out.splitlines():
+        w_s, pos_s, freq_s = line.split()
+        result[int(w_s)][int(pos_s)] = float(freq_s)
+    return result, elapsed, n_samples
 
 
 def main() -> int:
@@ -189,16 +213,13 @@ def main() -> int:
             b = bin_for_length(length)
             print(f"[{i+1}/{len(chosen)}] {name} len={length} bin={BIN_LABELS[b]}", file=sys.stderr, flush=True)
             linracc_probs, lr_elapsed = run_linracc(name, seq, tmpdir)
-            structures, ls_elapsed = run_linearsampling(seq)
+            freqs_by_w, ls_elapsed, n_samples = run_linearsampling_and_accumulate(seq, ACCESS_LENS, length)
             linracc_times.append(lr_elapsed)
             linsamp_times.append(ls_elapsed)
-            print(f"  linracc={lr_elapsed:.2f}s linsamp={ls_elapsed:.2f}s (n_samples={len(structures)})",
+            print(f"  linracc={lr_elapsed:.2f}s linsamp={ls_elapsed:.2f}s (n_samples={n_samples})",
                   file=sys.stderr, flush=True)
             seq_errors = {w: [] for w in ACCESS_LENS}
-            for w in ACCESS_LENS:
-                if length - w + 1 <= 0:
-                    continue
-                freqs = window_freq(structures, w, length)
+            for w, freqs in freqs_by_w.items():
                 for pos, p_hat in enumerate(freqs):
                     p_lin = linracc_probs[w].get(pos)
                     if p_lin is None:
@@ -209,7 +230,7 @@ def main() -> int:
             per_sequence.append({
                 "name": name, "length": length, "bin": BIN_LABELS[b],
                 "linracc_sec": lr_elapsed, "linsampling_sec": ls_elapsed,
-                "n_samples": len(structures),
+                "n_samples": n_samples,
                 "median_abs_err": {w: (statistics.median(e) if e else None) for w, e in seq_errors.items()},
             })
 

@@ -16,7 +16,7 @@ import time
 from pathlib import Path
 
 REPO_ROOT = Path("/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper")
-LINRACC = REPO_ROOT / "vendor/LinearRaccess/build/LinRacc"
+LINRACC = REPO_ROOT / "vendor/LinearRaccess/build-raccess/LinRacc"
 LINSAMP = REPO_ROOT / "vendor/LinearSampling/linearsampling"
 FASTA = REPO_ROOT / "benchmark/data/bpRNA_1m_90_filtered_clean.fa"
 BEAM = 100

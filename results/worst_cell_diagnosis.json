@@ -1,0 +1,36 @@
+{
+  "k_exact": 1000000,
+  "k_beam": 10000000,
+  "rows": [
+    {
+      "name": "bpRNA_CRW_2027",
+      "length": 917,
+      "w": 1,
+      "pos": 254,
+      "linracc_beam0": 0.9651211451662106,
+      "linracc_beam100": 0.9980415654851476,
+      "linsamp_beam0": 0.965154,
+      "linsamp_beam100": 0.0071801
+    },
+    {
+      "name": "bpRNA_CRW_2030",
+      "length": 887,
+      "w": 1,
+      "pos": 14,
+      "linracc_beam0": 0.9796892010409672,
+      "linracc_beam100": 0.008111591628132686,
+      "linsamp_beam0": 0.979504,
+      "linsamp_beam100": 0.9796545
+    },
+    {
+      "name": "bpRNA_CRW_1994",
+      "length": 750,
+      "w": 3,
+      "pos": 44,
+      "linracc_beam0": 0.29499127161774413,
+      "linracc_beam100": 0.9938153163992391,
+      "linsamp_beam0": 0.294011,
+      "linsamp_beam100": 0.1336621
+    }
+  ]
+}

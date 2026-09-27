@@ -89,6 +89,7 @@ def main() -> int:
     parser.add_argument("--task-id", type=int, required=True)
     parser.add_argument("--timeout", type=float, default=1800)
     parser.add_argument("--access-len", default=ACCESS_LEN)
+    parser.add_argument("--beam", type=int, default=100)
     parser.add_argument("--caps", default="30",
                         help="LinearRaccess c_multi/c_hairpin: an integer or 'auto' (= beam)")
     args = parser.parse_args()
@@ -110,7 +111,7 @@ def main() -> int:
             lin_out = td / "lin.txt"
             lin_cmd = [str(args.linracc), f"-seqfile={seqfile}", f"-outfile={lin_out}",
                        f"-access_len={args.access_len}", "-engine=lincapr", "-energy=turner2004",
-                       "-beam=100", f"-c_multi={args.caps}", f"-c_hairpin={args.caps}",
+                       f"-beam={args.beam}", f"-c_multi={args.caps}", f"-c_hairpin={args.caps}",
                        "-probabilities", "-metadata"]
             lin_elapsed, lin_mem_kb, lin_ok = run_timed(lin_cmd, args.timeout)
 
@@ -138,7 +139,7 @@ def main() -> int:
         raccess_sha256=digest(args.raccess),
         n_sequences=len(rows), n_failed=n_failed,
         access_len=args.access_len,
-        settings=dict(linearraccess=dict(beam=100, c_multi=args.caps, c_hairpin=args.caps,
+        settings=dict(linearraccess=dict(beam=args.beam, c_multi=args.caps, c_hairpin=args.caps,
                                           engine="lincapr", energy="turner2004"),
                       raccess_window=dict(max_span=100)),
         records=rows,

@@ -86,6 +86,7 @@ def main() -> int:
     parser.add_argument("--raccess", type=Path, required=True)
     parser.add_argument("--task-id", type=int, required=True)
     parser.add_argument("--timeout", type=float, default=1800)
+    parser.add_argument("--access-len", default=ACCESS_LEN)
     args = parser.parse_args()
 
     batch_dir = args.outdir / f"batch_{args.task_id}"
@@ -108,7 +109,7 @@ def main() -> int:
             seqfile = td / "seq.fa"
             seqfile.write_text(f">{seq_id}\n{seq}\n")
             out = td / "out.txt"
-            cmd = [str(args.raccess), f"-seqfile={seqfile}", f"-access_len={ACCESS_LEN}",
+            cmd = [str(args.raccess), f"-seqfile={seqfile}", f"-access_len={args.access_len}",
                    f"-max_span={length}", f"-outfile={out}"]
             elapsed, mem_kb, ok = run_timed(cmd, args.timeout)
         rows.append(dict(seq_id=seq_id, length=length, elapsed_sec=elapsed,
@@ -119,7 +120,7 @@ def main() -> int:
         schema_version=1, task_id=args.task_id,
         finished_utc=datetime.now(timezone.utc).isoformat(),
         batch_sha256=digest(args.batch), raccess_sha256=digest(args.raccess),
-        access_len=ACCESS_LEN, n_sequences=len(rows), n_failed=n_failed,
+        access_len=args.access_len, n_sequences=len(rows), n_failed=n_failed,
         records=rows,
     )
     (batch_dir / "run_summary.json").write_text(json.dumps(manifest, indent=2) + "\n")

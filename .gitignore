@@ -48,3 +48,14 @@
 /results/archive/bprna_memory_runs_8676148/
 __pycache__/
 .work/
+
+# Raw per-sequence outputs of the 2026-09-27 cap=b / w=35 reruns; the
+# aggregated summaries/provenance are committed separately once they exist.
+/results/bprna_accuracy_capb/
+/results/bprna_beam_sweep_300_1000_capb/
+/results/bprna_matched_runtime_capb/
+/results/raccess_exact_matched_w35/
+/results/rnaplfold_turner1999_w100_u35/
+/results/sars_cov2_beam_convergence_capb/
+/results/linearsampling_comparison_capb/
+/scripts/window_freq_counter

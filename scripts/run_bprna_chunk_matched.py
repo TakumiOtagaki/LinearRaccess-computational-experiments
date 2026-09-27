@@ -88,6 +88,9 @@ def main() -> int:
     parser.add_argument("--raccess", type=Path, required=True)
     parser.add_argument("--task-id", type=int, required=True)
     parser.add_argument("--timeout", type=float, default=1800)
+    parser.add_argument("--access-len", default=ACCESS_LEN)
+    parser.add_argument("--caps", default="30",
+                        help="LinearRaccess c_multi/c_hairpin: an integer or 'auto' (= beam)")
     args = parser.parse_args()
 
     batch = args.outdir / f"batch_{args.task_id}"
@@ -106,12 +109,13 @@ def main() -> int:
 
             lin_out = td / "lin.txt"
             lin_cmd = [str(args.linracc), f"-seqfile={seqfile}", f"-outfile={lin_out}",
-                       f"-access_len={ACCESS_LEN}", "-engine=lincapr", "-energy=turner2004",
-                       "-beam=100", "-c_multi=30", "-c_hairpin=30", "-probabilities", "-metadata"]
+                       f"-access_len={args.access_len}", "-engine=lincapr", "-energy=turner2004",
+                       "-beam=100", f"-c_multi={args.caps}", f"-c_hairpin={args.caps}",
+                       "-probabilities", "-metadata"]
             lin_elapsed, lin_mem_kb, lin_ok = run_timed(lin_cmd, args.timeout)
 
             rac_out = td / "rac.txt"
-            rac_cmd = [str(args.raccess), f"-seqfile={seqfile}", f"-access_len={ACCESS_LEN}",
+            rac_cmd = [str(args.raccess), f"-seqfile={seqfile}", f"-access_len={args.access_len}",
                        "-max_span=100", f"-outfile={rac_out}"]
             rac_elapsed, rac_mem_kb, rac_ok = run_timed(rac_cmd, args.timeout)
 
@@ -133,8 +137,8 @@ def main() -> int:
         linracc_sha256=digest(args.linracc), linracc_build_info=linracc_info,
         raccess_sha256=digest(args.raccess),
         n_sequences=len(rows), n_failed=n_failed,
-        access_len=ACCESS_LEN,
-        settings=dict(linearraccess=dict(beam=100, c_multi=30, c_hairpin=30,
+        access_len=args.access_len,
+        settings=dict(linearraccess=dict(beam=100, c_multi=args.caps, c_hairpin=args.caps,
                                           engine="lincapr", energy="turner2004"),
                       raccess_window=dict(max_span=100)),
         records=rows,

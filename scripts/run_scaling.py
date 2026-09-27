@@ -93,8 +93,11 @@ def validate_manifest(path: Path, tier_name: str) -> dict[str, Any]:
         "turner2004",
     }:
         raise BenchmarkError("the lincapr engine requires a named Turner energy model")
-    for field in ("beam", "c_multi", "c_hairpin"):
-        positive_int(configuration.get(field), f"configuration.{field}")
+    positive_int(configuration.get("beam"), "configuration.beam")
+    for field in ("c_multi", "c_hairpin"):
+        # "auto" ties the loop cap to the beam (LinRacc's default).
+        if configuration.get(field) != "auto":
+            positive_int(configuration.get(field), f"configuration.{field}")
     for field in ("fast_logsumexp", "normalize_profiles"):
         if not isinstance(configuration.get(field), bool):
             raise BenchmarkError(f"configuration.{field} must be boolean")

@@ -11,8 +11,8 @@
 
 set -euo pipefail
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../../.." && pwd)"
+# UGE spools this script, so BASH_SOURCE does not point into the repo.
+PROJECT_ROOT=/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper
 cd "${PROJECT_ROOT}"
 
 # Same TMPDIR avoidance as bprna_accuracy_comparison.sh: every scratch path
@@ -26,13 +26,14 @@ PARAMETER_FILE="${RNAPLFOLD_PARAMETER_FILE:-$(dirname "${RNAPLFOLD_BIN}")/../sha
 test -r "${PARAMETER_FILE}"
 
 FASTA="${PROJECT_ROOT}/benchmark/data/bprna_100_1000.fa"
-RESULTS_DIR="${PROJECT_ROOT}/benchmark/results/rnaplfold_turner1999_w100_u10"
+# ULENGTH (-u) and RESULTS_DIR can be overridden, e.g. ULENGTH=35 for w<=35.
+ULENGTH="${ULENGTH:-10}"
+RESULTS_DIR="${RESULTS_DIR:-${PROJECT_ROOT}/benchmark/results/rnaplfold_turner1999_w100_u${ULENGTH}}"
 WORK_ROOT="${RESULTS_DIR}/.work"
 LOGDIR="${PROJECT_ROOT}/logs/uge"
 
 WINSIZE=100
 SPAN=100
-ULENGTH=10
 TOTAL_SEQ=12872
 NUM_TASKS=16
 
@@ -82,7 +83,7 @@ cd "${TASK_DIR}"
 # Move only the _lunp files (accessibility profiles) to the permanent
 # results directory; the _dp.ps postscript dot plots are not needed and are
 # left behind / cleaned up with the task directory.
-python3 - "${CHUNK_FASTA}" "${RESULTS_DIR}" "${TASK_ID}" "${RNAPLFOLD_BIN}" "${PARAMETER_FILE}" <<'PY'
+python3 - "${CHUNK_FASTA}" "${RESULTS_DIR}" "${TASK_ID}" "${RNAPLFOLD_BIN}" "${PARAMETER_FILE}" "${WINSIZE}" "${SPAN}" "${ULENGTH}" <<'PY'
 import hashlib
 import json
 import shutil
@@ -90,7 +91,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-chunk, results, task, binary, parameters = sys.argv[1:]
+chunk, results, task, binary, parameters, winsize, span, ulength = sys.argv[1:]
 chunk, results = Path(chunk), Path(results)
 ids = [line[1:].split()[0] for line in chunk.read_text().splitlines() if line.startswith('>')]
 sources = [chunk.parent / f'{seq_id}_lunp' for seq_id in ids]
@@ -106,7 +107,7 @@ record = {
     'chunk_sha256': hashlib.sha256(chunk.read_bytes()).hexdigest(),
     'binary_sha256': hashlib.sha256(Path(binary).read_bytes()).hexdigest(),
     'parameter_sha256': hashlib.sha256(Path(parameters).read_bytes()).hexdigest(),
-    'command': [binary, '-P', str(Path(parameters).resolve()), '-W', '100', '-L', '100', '-u', '10'],
+    'command': [binary, '-P', str(Path(parameters).resolve()), '-W', winsize, '-L', span, '-u', ulength],
 }
 (results / 'tasks' / f'{task}.json').write_text(json.dumps(record, indent=2) + '\n')
 PY

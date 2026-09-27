@@ -62,3 +62,4 @@ __pycache__/
 /scripts/accuracy_aggregate
 /results/linearsampling_comparison_long/
 /results/bprna_matched_runtime_b200/
+/results/deepraccess_comparison/

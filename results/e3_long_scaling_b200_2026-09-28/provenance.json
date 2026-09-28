@@ -1,0 +1,66 @@
+{
+  "argv": [
+    "benchmark/scripts/run_scaling.py",
+    "--manifest",
+    "benchmark/manifests/scaling_sars2_long_b200.json",
+    "--tier",
+    "long",
+    "--software-dir",
+    "vendor/LinearRaccess",
+    "--linracc",
+    "vendor/LinearRaccess/build-raccess/LinRacc",
+    "--output-dir",
+    "benchmark/results/e3_long_scaling_b200_2026-09-28"
+  ],
+  "build_info": {
+    "software_version": "0.1.0",
+    "source_revision": "5b0c1394153916d0a7e82f444e5c18b36a3f528a"
+  },
+  "command_template": [
+    "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/LinearRaccess/build-raccess/LinRacc",
+    "-seqfile={prefix_fasta}",
+    "-outfile={output}",
+    "-access_len=1,3,7,10,35",
+    "-engine=lincapr",
+    "-beam=200",
+    "-c_multi=auto",
+    "-c_hairpin=auto",
+    "-probabilities",
+    "-metadata",
+    "-energy=turner2004",
+    "-no-normalize"
+  ],
+  "experiment_id": "e3-long-scaling-b200",
+  "generated_at_utc": "2026-09-27T17:05:42.119714+00:00",
+  "hardware": {
+    "hostname": "r3n1",
+    "machine": "x86_64",
+    "platform": "Linux-5.14.0-687.41.1.el9_8.x86_64-x86_64-with-glibc2.34",
+    "processor": "x86_64",
+    "python": "3.9.25 (main, Mar 26 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-11)]"
+  },
+  "linracc_path": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/vendor/LinearRaccess/build-raccess/LinRacc",
+  "linracc_sha256": "cdf3ac0593794ad5620ec938482ebd8aabc37f1794c21bf622ef3d825267f0c8",
+  "manifest_path": "benchmark/manifests/scaling_sars2_long_b200.json",
+  "manifest_sha256": "29958ff1472e76f57b7d2910b9698313d1c7390b68353d75b97e247448366a3d",
+  "paper_repository": {
+    "commit": "8a6293216dda204783e6bacd22cfa33a00d1dfdf",
+    "remote": "git@github.com:TakumiOtagaki/LinearRaccess-paper.git",
+    "status": ""
+  },
+  "schema_version": 1,
+  "software_lock_sha256": "105d9f7ed3a0ff5e1012ec570855e1c45be4a44c4fd4be0ce83ddde12d7a9c2a",
+  "software_repository": {
+    "commit": "5b0c1394153916d0a7e82f444e5c18b36a3f528a",
+    "remote": "git@github.com:TakumiOtagaki/LinearRaccess.git",
+    "status": ""
+  },
+  "source_file_sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e",
+  "source_path": "/gs/bs/tga-satolab-gtex/otgk/LinearRaccess-paper/benchmark/data/NC_045512.2.fa",
+  "source_sequence_sha256": "d221b74def202fe4a77e14ce8695bfa5cbc7d5056ce4c8a98dafee8c2e0ab344",
+  "tier": "long",
+  "timing": {
+    "clock": "time.perf_counter",
+    "peak_rss_source": "/usr/bin/time when available"
+  }
+}

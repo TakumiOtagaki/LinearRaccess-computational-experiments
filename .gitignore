@@ -68,3 +68,6 @@ __pycache__/
 /results/linearsampling_comparison_dd/
 /results/linearsampling_comparison_long_dd/
 /results/bprna_matched_runtime_dd/
+/scripts/window_freq_counter_byloop
+/results/byloop_comparison_bprna52/
+/results/byloop_comparison_long/

@@ -1,0 +1,20 @@
+{
+ "job": "8809622",
+ "linracc_revision": "0155fa42fb214e25ed3b01e6398a89897d7f9268",
+ "settings": "LinearRaccess beam=200 caps auto Turner 2004; Raccess Window max_span=100; w in {1,3,7,10,35}; one process at a time",
+ "n_sequences": 26063,
+ "linearraccess_b200": {
+  "time_slope_s_per_nt": 0.011497957065665388,
+  "time_r2": 0.9741693403895814,
+  "total_hours": 6.584241666666668,
+  "mem_slope_mb_per_nt": 0.11815421738140347,
+  "max_rss_mb": 543.0
+ },
+ "raccess_window_w100": {
+  "time_slope_s_per_nt": 0.0014896186278963487,
+  "time_r2": 0.9959129547898412,
+  "total_hours": 1.5774722222222226,
+  "mem_slope_mb_per_nt": 3.642547407650164e-06,
+  "max_rss_mb": 6.0
+ }
+}

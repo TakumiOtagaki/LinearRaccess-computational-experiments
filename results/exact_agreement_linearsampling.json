@@ -1,0 +1,105 @@
+{
+ "k": 200000,
+ "sequences": {
+  "bpRNA_CRW_1328": {
+   "length": 288,
+   "E": {
+    "n_windows": 26,
+    "max_abs_z": 1.3183907736255982,
+    "n_abs_z_over_4": 0
+   },
+   "H": {
+    "n_windows": 346,
+    "max_abs_z": 3.092689102980682,
+    "n_abs_z_over_4": 0
+   },
+   "B": {
+    "n_windows": 140,
+    "max_abs_z": 2.34463850350789,
+    "n_abs_z_over_4": 0
+   },
+   "I": {
+    "n_windows": 274,
+    "max_abs_z": 3.1555236745077684,
+    "n_abs_z_over_4": 0
+   },
+   "M": {
+    "n_windows": 297,
+    "max_abs_z": 2.8688447957283447,
+    "n_abs_z_over_4": 0
+   },
+   "total": {
+    "n_windows": 556,
+    "max_abs_z": 2.7753957864895784,
+    "n_abs_z_over_4": 0
+   }
+  },
+  "bpRNA_CRW_1563": {
+   "length": 476,
+   "E": {
+    "n_windows": 95,
+    "max_abs_z": 3.3467932697525278,
+    "n_abs_z_over_4": 0
+   },
+   "H": {
+    "n_windows": 589,
+    "max_abs_z": 3.459752486093174,
+    "n_abs_z_over_4": 0
+   },
+   "B": {
+    "n_windows": 187,
+    "max_abs_z": 2.746158452187521,
+    "n_abs_z_over_4": 0
+   },
+   "I": {
+    "n_windows": 454,
+    "max_abs_z": 3.407003088915246,
+    "n_abs_z_over_4": 0
+   },
+   "M": {
+    "n_windows": 532,
+    "max_abs_z": 3.3940145624547178,
+    "n_abs_z_over_4": 0
+   },
+   "total": {
+    "n_windows": 977,
+    "max_abs_z": 3.5205943127661423,
+    "n_abs_z_over_4": 0
+   }
+  },
+  "bpRNA_CRW_1041": {
+   "length": 654,
+   "E": {
+    "n_windows": 228,
+    "max_abs_z": 2.647860996690026,
+    "n_abs_z_over_4": 0
+   },
+   "H": {
+    "n_windows": 880,
+    "max_abs_z": 3.1320730028945505,
+    "n_abs_z_over_4": 0
+   },
+   "B": {
+    "n_windows": 478,
+    "max_abs_z": 2.9553921740219415,
+    "n_abs_z_over_4": 0
+   },
+   "I": {
+    "n_windows": 888,
+    "max_abs_z": 4.079955099444008,
+    "n_abs_z_over_4": 1
+   },
+   "M": {
+    "n_windows": 1071,
+    "max_abs_z": 3.27782597056425,
+    "n_abs_z_over_4": 0
+   },
+   "total": {
+    "n_windows": 1537,
+    "max_abs_z": 3.9801617338129134,
+    "n_abs_z_over_4": 0
+   }
+  }
+ },
+ "linracc_build": "{\"software_version\":\"0.1.0\",\"source_revision\":\"0155fa42fb214e25ed3b01e6398a89897d7f9268\"}"
+}

@@ -1,0 +1,24 @@
+{
+ "n_sequences": 300,
+ "n_cells": 134700,
+ "cells_per_w": {
+  "1": 30000,
+  "3": 29400,
+  "7": 28200,
+  "10": 27300,
+  "35": 19800
+ },
+ "median_absolute_error": 1.756659273946526e-08,
+ "p95_absolute_error": 5.174420423498247e-07,
+ "max_absolute_error": 1.5881740782763831e-06,
+ "median_dG_error_kcal": 1.9018830492711913e-06,
+ "max_dG_error_kcal": 4.999904839664282e-05,
+ "n_nonpositive_linracc": 0,
+ "spearman_energy_space": 0.9999999999907495,
+ "linracc_revision": "0155fa42fb214e25ed3b01e6398a89897d7f9268",
+ "raccess_builds_identical": true,
+ "commands": {
+  "raccess": "vendor/raccess/src/raccess/run_raccess -seqfile=benchmark/data/e1_random_inputs.fa -access_len=1,3,7,10,35 -max_span=100 -energy_thr=1000.0 (vendor/Raccess build gives byte-identical output)",
+  "linracc": "LinRacc -access_len=1,3,7,10,35 -engine=raccess -energy=turner1999 -beam=0 -no-fast-logsumexp -no-normalize -probabilities -metadata (caps auto = N)"
+ }
+}

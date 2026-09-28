@@ -49,7 +49,14 @@ def read_fasta(path: Path) -> dict[str, str]:
 
 
 def load_model(device, pretrain: Path):
-    model = process.model_device(getattr(mymodel, "FCN")(), device)
+    # Same wrapping as DeepRaccess's process.model_device (DataParallel, so the
+    # checkpoint's "module." keys load; deterministic cuDNN), but over the
+    # GPUs actually present -- model_device hard-codes device_ids=[0,1,2,3].
+    model = getattr(mymodel, "FCN")().to(device)
+    ids = list(range(torch.cuda.device_count())) if device.type == "cuda" else None
+    model = torch.nn.DataParallel(model, device_ids=ids)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
     model.load_state_dict(torch.load(pretrain, map_location=device)["model_state_dict"])
     return model.module.to(device) if hasattr(model, "module") else model.to(device)
 

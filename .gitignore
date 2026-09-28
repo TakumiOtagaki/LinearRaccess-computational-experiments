@@ -63,3 +63,8 @@ __pycache__/
 /results/linearsampling_comparison_long/
 /results/bprna_matched_runtime_b200/
 /results/deepraccess_comparison/
+/results/bprna_accuracy_dd/
+/results/bprna_beam_sweep_300_1000_dd/
+/results/linearsampling_comparison_dd/
+/results/linearsampling_comparison_long_dd/
+/results/bprna_matched_runtime_dd/

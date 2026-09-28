@@ -10,7 +10,10 @@
 // The exact reference is always Raccess output (<exact_dir>/<id>.txt).
 // Prints JSON: for each bin ("100-300", ..., "700-1000", "pooled") and each
 // w (and "all"): n_cells, median/p95/max absolute error, and for rare cells
-// (exact P in [1e-8, 1e-5]) n and median/p90 relative error.
+// (exact P in [1e-8, 1e-5]) n and median/p90 relative error; opening-energy
+// error |dG_a - dG_e| with dG = -RT ln P (kcal/mol) median/p95 over cells
+// where both P > 0, and n_inf = cells with exact P > 0 but approximate P <= 0;
+// and n_seq_fail = sequences with some cell of absolute error > 0.5.
 // Sequence-list order is the loop order; missing files are counted and
 // skipped.
 
@@ -91,7 +94,8 @@ bool read_lunp(const std::string& path, const std::vector<int>& ws, int n, Table
 }
 
 struct Acc {
-    std::vector<double> abs, rel;
+    std::vector<double> abs, rel, de;
+    size_t n_inf = 0;
 };
 
 double quantile(std::vector<double>& v, double q) {
@@ -126,7 +130,11 @@ void emit(Acc& a) {
     num(median(a.rel));
     std::printf(",\"p90_rel_rare\":");
     num(quantile(a.rel, 0.90));
-    std::printf("}");
+    std::printf(",\"median_dG_kcal\":");
+    num(median(a.de));
+    std::printf(",\"p95_dG_kcal\":");
+    num(quantile(a.de, 0.95));
+    std::printf(",\"n_inf\":%zu}", a.n_inf);
 }
 
 }  // namespace
@@ -146,7 +154,7 @@ int main(int argc, char** argv) {
     const int nb = 4, nw = ws.size();
     // acc[bin][w] with bin nb = pooled and w nw = all windows.
     std::vector<std::vector<Acc>> acc(nb + 1, std::vector<Acc>(nw + 1));
-    std::vector<int> nseq(nb + 1, 0);
+    std::vector<int> nseq(nb + 1, 0), nfail(nb + 1, 0);
     int missing = 0, missing_cells = 0;
 
     std::ifstream lf(list);
@@ -162,21 +170,28 @@ int main(int argc, char** argv) {
         else ok = ok && read_start_payload(method_dir + "/" + id + ".txt", fmt == "raccess", ws, n, ap);
         if (!ok) { missing++; continue; }
         nseq[b]++; nseq[nb]++;
+        double worst = 0;
         for (int k = 0; k < nw; k++) {
             for (size_t s = 0; s < ex[k].size(); s++) {
                 double e = ex[k][s], a = ap[k][s];
                 if (!std::isfinite(e) || !std::isfinite(a)) { missing_cells++; continue; }
                 double d = std::fabs(a - e);
+                worst = std::max(worst, d);
+                const bool e_pos = e > 0, a_pos = a > 0;
+                const double dg = (e_pos && a_pos) ? kRT * std::fabs(std::log(a) - std::log(e)) : NAN;
                 for (int bb : {b, nb}) for (int kk : {k, nw}) {
                     acc[bb][kk].abs.push_back(d);
                     if (e >= kRareLow && e <= kRareHigh) acc[bb][kk].rel.push_back(d / e);
+                    if (std::isfinite(dg)) acc[bb][kk].de.push_back(dg);
+                    else if (e_pos && !a_pos) acc[bb][kk].n_inf++;
                 }
             }
         }
+        if (worst > 0.5) { nfail[b]++; nfail[nb]++; }
     }
     std::printf("{\"n_missing_sequences\":%d,\"n_missing_cells\":%d,\"bins\":{", missing, missing_cells);
     for (int bb = 0; bb <= nb; bb++) {
-        std::printf("%s\"%s\":{\"n_sequences\":%d", bb ? "," : "", bb < nb ? kBinLabel[bb] : "pooled", nseq[bb]);
+        std::printf("%s\"%s\":{\"n_sequences\":%d,\"n_seq_fail\":%d", bb ? "," : "", bb < nb ? kBinLabel[bb] : "pooled", nseq[bb], nfail[bb]);
         for (int kk = 0; kk <= nw; kk++) {
             std::printf(",\"%s\":", kk < nw ? std::to_string(ws[kk]).c_str() : "all");
             emit(acc[bb][kk]);

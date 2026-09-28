@@ -147,9 +147,15 @@ def main() -> int:
     parser.add_argument("--phase", choices=("accuracy", "timing"), required=True)
     parser.add_argument("--jobs", type=int, default=16)
     parser.add_argument("--set", choices=("bprna52", "long"), default="bprna52")
+    parser.add_argument("--work-dir", type=Path,
+                        help="override the result/cache directory (its bin/LinRacc is used)")
     args = parser.parse_args()
     if args.set == "long":
         use_long_set()
+    if args.work_dir:
+        global WORK_DIR, LINRACC
+        WORK_DIR = args.work_dir.resolve()
+        LINRACC = WORK_DIR / "bin/LinRacc"
     if not LINRACC.is_file():
         raise SystemExit(f"missing frozen binary {LINRACC}")
     (WORK_DIR / args.phase).mkdir(parents=True, exist_ok=True)

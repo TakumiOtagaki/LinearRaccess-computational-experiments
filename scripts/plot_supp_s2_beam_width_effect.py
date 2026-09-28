@@ -13,7 +13,8 @@ mismatch (see docs/review_triage_20260918.md).
 Usage:
     python3 benchmark/scripts/plot_supp_s2_beam_width_effect.py
 
-Reads benchmark/results/bprna_accuracy_comparison/{exact,linear_b100,linear_b200}
+Reads benchmark/results/bprna_accuracy_capb/exact and
+bprna_accuracy_dd/{linear_b100,linear_b200} (LinearRaccess 0155fa4, w in {1,3,7,10,35})
 for the 791 sequences with max absolute error > 0.5 at beam=100 (identified
 from the full 12,872-sequence set), and writes
 manuscript/figures/figureS2_beam_width_effect.pdf.
@@ -45,9 +46,9 @@ COLORS = {
     "beam=200": "#1f77b4",  # Blue -- matches Figure 2/3/S1
 }
 
-EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/exact"
-B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/linear_b100"
-B200_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/linear_b200"
+EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_capb/exact"
+B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_dd/linear_b100"
+B200_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_dd/linear_b200"
 SEQ_LIST = REPO_ROOT / "benchmark/data/bprna_100_1000_list.txt"
 OUTPUT = REPO_ROOT / "manuscript/figures/figureS2_beam_width_effect.pdf"
 

@@ -10,7 +10,8 @@ consistently across the main text and Supplementary Information.
 Usage:
     python3 benchmark/scripts/plot_supp_s1_error_distribution.py
 
-Reads benchmark/results/bprna_accuracy_comparison/{exact,linear_b100,window_w100}
+Reads benchmark/results/bprna_accuracy_capb/{exact,window_w100} and
+bprna_accuracy_dd/linear_b200 (LinearRaccess 0155fa4, w in {1,3,7,10,35})
 for the 12,872 sequences in benchmark/data/bprna_100_1000_list.txt, and
 writes manuscript/figures/figureS1_error_distribution.pdf.
 """
@@ -44,9 +45,9 @@ COLORS = {
 BINS = [(100, 300), (300, 500), (500, 700), (700, 1001)]  # last bin closed at 1000
 BIN_LABELS = ["100-300", "300-500", "500-700", "700-1000"]
 
-EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/exact"
-B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/linear_b100"
-WINDOW_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/window_w100"
+EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_capb/exact"
+B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_dd/linear_b200"
+WINDOW_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_capb/window_w100"
 SEQ_LIST = REPO_ROOT / "benchmark/data/bprna_100_1000_list.txt"
 OUTPUT = REPO_ROOT / "manuscript/figures/figureS1_error_distribution.pdf"
 
@@ -148,11 +149,11 @@ def main() -> int:
     ax.set_xlabel("Sequence length range (nt)", fontsize=16)
     ax.set_ylabel(r"$\log_{10}$(absolute error)", fontsize=16)
     ax.set_title(
-        "Per-window absolute error distribution\nLinearRaccess (beam=100) vs Raccess Window (W=100)",
+        "Per-window absolute error distribution\nLinearRaccess (beam=200) vs Raccess Window (W=100)",
         fontsize=15,
     )
     handles = [
-        plt.Rectangle((0, 0), 1, 1, facecolor=COLORS["LinearRaccess"], alpha=0.6, label="LinearRaccess (beam=100)"),
+        plt.Rectangle((0, 0), 1, 1, facecolor=COLORS["LinearRaccess"], alpha=0.6, label="LinearRaccess (beam=200)"),
         plt.Rectangle((0, 0), 1, 1, facecolor=COLORS["Raccess Window (W=100)"], alpha=0.6, label="Raccess Window (W=100)"),
     ]
     ax.legend(handles=handles, loc="upper left", fontsize=12)

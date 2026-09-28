@@ -1,0 +1,339 @@
+{
+ "n_sequences": 26,
+ "min_length": 500,
+ "configs": {
+  "linracc_b100": {
+   "1": {
+    "median_abs_kcal": 0.10363657717295482,
+    "p95_abs_kcal": 1.565791011218453,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9326323425484999,
+    "min_spearman": 0.7856358715240394
+   },
+   "3": {
+    "median_abs_kcal": 0.22487810619721516,
+    "p95_abs_kcal": 2.0907203454965813,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9185338212342892,
+    "min_spearman": 0.7768453847668205
+   },
+   "7": {
+    "median_abs_kcal": 0.40253670655221185,
+    "p95_abs_kcal": 2.698624188965622,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9062991549240795,
+    "min_spearman": 0.7460841882045339
+   },
+   "10": {
+    "median_abs_kcal": 0.484682809731908,
+    "p95_abs_kcal": 3.0825168922569626,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.8956319341952581,
+    "min_spearman": 0.7211220214516398
+   },
+   "35": {
+    "median_abs_kcal": 1.1950345375784774,
+    "p95_abs_kcal": 5.569738589997267,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.8501899747537809,
+    "min_spearman": 0.6773295079690266
+   }
+  },
+  "linracc_b200": {
+   "1": {
+    "median_abs_kcal": 0.026772831013204046,
+    "p95_abs_kcal": 0.8142668831373295,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9906910362805877,
+    "min_spearman": 0.8181363217922072
+   },
+   "3": {
+    "median_abs_kcal": 0.05970515586540859,
+    "p95_abs_kcal": 1.1442977097128895,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9843776524781502,
+    "min_spearman": 0.8470115450384169
+   },
+   "7": {
+    "median_abs_kcal": 0.10928837043787898,
+    "p95_abs_kcal": 1.516314234252622,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9703706798633528,
+    "min_spearman": 0.832772380047719
+   },
+   "10": {
+    "median_abs_kcal": 0.13394047516763496,
+    "p95_abs_kcal": 1.7579393361413775,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9638704697001097,
+    "min_spearman": 0.8122091326445176
+   },
+   "35": {
+    "median_abs_kcal": 0.33988936038023176,
+    "p95_abs_kcal": 3.2790196270820413,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9445593483176635,
+    "min_spearman": 0.8062675937023673
+   }
+  },
+  "linracc_b300": {
+   "1": {
+    "median_abs_kcal": 0.008198798278923988,
+    "p95_abs_kcal": 0.5444193591015645,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.997253996196974,
+    "min_spearman": 0.8909277068630053
+   },
+   "3": {
+    "median_abs_kcal": 0.01777502539766096,
+    "p95_abs_kcal": 0.7192236644179941,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9932241120547965,
+    "min_spearman": 0.9109003656552582
+   },
+   "7": {
+    "median_abs_kcal": 0.03404241139294939,
+    "p95_abs_kcal": 0.9501916562677033,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9844886689915682,
+    "min_spearman": 0.8948207280699111
+   },
+   "10": {
+    "median_abs_kcal": 0.04083282678840883,
+    "p95_abs_kcal": 1.1187218532570156,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9786178960261679,
+    "min_spearman": 0.8671882441722142
+   },
+   "35": {
+    "median_abs_kcal": 0.10510593310026373,
+    "p95_abs_kcal": 2.0188602534398425,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9750584892984,
+    "min_spearman": 0.917797025238088
+   }
+  },
+  "linracc_b500": {
+   "1": {
+    "median_abs_kcal": 0.00017013680609134774,
+    "p95_abs_kcal": 0.039202149249117156,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9999915432087868,
+    "min_spearman": 0.9869185548826858
+   },
+   "3": {
+    "median_abs_kcal": 0.00024339359850018838,
+    "p95_abs_kcal": 0.07892956033079845,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9999980022046329,
+    "min_spearman": 0.980633205415129
+   },
+   "7": {
+    "median_abs_kcal": 0.0003813644735153332,
+    "p95_abs_kcal": 0.1176162815403633,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9999860157776739,
+    "min_spearman": 0.9712766029916261
+   },
+   "10": {
+    "median_abs_kcal": 0.0004386228305590656,
+    "p95_abs_kcal": 0.1389452777801762,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9999960353328468,
+    "min_spearman": 0.9722107469612021
+   },
+   "35": {
+    "median_abs_kcal": 0.00100586841265482,
+    "p95_abs_kcal": 0.35623783073709214,
+    "frac_infinite": 0.0,
+    "median_spearman": 0.9993627331699184,
+    "min_spearman": 0.9744485650345163
+   }
+  },
+  "linsamp_b100_k1000000": {
+   "1": {
+    "median_abs_kcal": 0.06346753869146182,
+    "p95_abs_kcal": 1.2495761248101827,
+    "frac_infinite": 0.002063055438002539,
+    "median_spearman": 0.970737939223788,
+    "min_spearman": 0.8146341231809606
+   },
+   "3": {
+    "median_abs_kcal": 0.14458593938508546,
+    "p95_abs_kcal": 1.7313520748382514,
+    "frac_infinite": 0.020422236367494163,
+    "median_spearman": 0.9586767062490762,
+    "min_spearman": 0.8482669847998023
+   },
+   "7": {
+    "median_abs_kcal": 0.27000076069333634,
+    "p95_abs_kcal": 2.1019388055422223,
+    "frac_infinite": 0.11249199914657564,
+    "median_spearman": 0.930330745644643,
+    "min_spearman": 0.8283133105722283
+   },
+   "10": {
+    "median_abs_kcal": 0.30913132113994135,
+    "p95_abs_kcal": 2.1421545331545255,
+    "frac_infinite": 0.25495447241564007,
+    "median_spearman": 0.9087591223566197,
+    "min_spearman": 0.7998203666116154
+   },
+   "35": {
+    "median_abs_kcal": 0.9126779489497321,
+    "p95_abs_kcal": 2.997561115011618,
+    "frac_infinite": 0.997669256381798,
+    "median_spearman": 0.13614320155250167,
+    "min_spearman": 0.058123074906032586
+   }
+  },
+  "linsamp_b100_k50000": {
+   "1": {
+    "median_abs_kcal": 0.06703394555278738,
+    "p95_abs_kcal": 1.216459336681802,
+    "frac_infinite": 0.006242065171392298,
+    "median_spearman": 0.9704361933201995,
+    "min_spearman": 0.8151642161841478
+   },
+   "3": {
+    "median_abs_kcal": 0.1416579794069126,
+    "p95_abs_kcal": 1.5644594396213325,
+    "frac_infinite": 0.05426479949077021,
+    "median_spearman": 0.9583178849331597,
+    "min_spearman": 0.8486590358275933
+   },
+   "7": {
+    "median_abs_kcal": 0.25342473508326435,
+    "p95_abs_kcal": 1.6945886362981644,
+    "frac_infinite": 0.25661403883080863,
+    "median_spearman": 0.9189057207166126,
+    "min_spearman": 0.8152359374615892
+   },
+   "10": {
+    "median_abs_kcal": 0.29447675897202163,
+    "p95_abs_kcal": 1.7112847983321338,
+    "frac_infinite": 0.4698446705945367,
+    "median_spearman": 0.8711482849331299,
+    "min_spearman": 0.7323715169464576
+   },
+   "35": {
+    "median_abs_kcal": 2.6979073982243866,
+    "p95_abs_kcal": 2.7389552942651316,
+    "frac_infinite": 0.9994450610432852,
+    "median_spearman": 0.06328775911610858,
+    "min_spearman": 0.056252358826958844
+   }
+  },
+  "linsamp_b200_k1000000": {
+   "1": {
+    "median_abs_kcal": 0.01430007276313705,
+    "p95_abs_kcal": 0.5670908509157435,
+    "frac_infinite": 0.0016398645789250951,
+    "median_spearman": 0.9982310426342509,
+    "min_spearman": 0.8886965657675685
+   },
+   "3": {
+    "median_abs_kcal": 0.03478627868625561,
+    "p95_abs_kcal": 0.7519127846181355,
+    "frac_infinite": 0.014534266921281562,
+    "median_spearman": 0.9960391950655225,
+    "min_spearman": 0.9092839465632456
+   },
+   "7": {
+    "median_abs_kcal": 0.08663741518840684,
+    "p95_abs_kcal": 0.9767635966550867,
+    "frac_infinite": 0.08491572434393002,
+    "median_spearman": 0.9889740765421546,
+    "min_spearman": 0.8910774428046262
+   },
+   "10": {
+    "median_abs_kcal": 0.12443865059930737,
+    "p95_abs_kcal": 1.0749593974151754,
+    "frac_infinite": 0.20391001606855919,
+    "median_spearman": 0.9662797043196731,
+    "min_spearman": 0.854780626848057
+   },
+   "35": {
+    "median_abs_kcal": 0.706138431719098,
+    "p95_abs_kcal": 2.584859688990969,
+    "frac_infinite": 0.9971143174250833,
+    "median_spearman": 0.12141343741094912,
+    "min_spearman": 0.06337242505244779
+   }
+  },
+  "linsamp_b300_k1000000": {
+   "1": {
+    "median_abs_kcal": 0.004289182339951125,
+    "p95_abs_kcal": 0.15340112742553833,
+    "frac_infinite": 0.0013224714346170123,
+    "median_spearman": 0.9999007045062607,
+    "min_spearman": 0.9844457617212489
+   },
+   "3": {
+    "median_abs_kcal": 0.01148120475310832,
+    "p95_abs_kcal": 0.2726798140405707,
+    "frac_infinite": 0.013155102906853384,
+    "median_spearman": 0.999666888492567,
+    "min_spearman": 0.9754422947336463
+   },
+   "7": {
+    "median_abs_kcal": 0.03817220881123351,
+    "p95_abs_kcal": 0.5567607664113038,
+    "frac_infinite": 0.07643481971410283,
+    "median_spearman": 0.995537657146579,
+    "min_spearman": 0.9623294608817
+   },
+   "10": {
+    "median_abs_kcal": 0.06666071744098723,
+    "p95_abs_kcal": 0.7112492480512972,
+    "frac_infinite": 0.19201928227102302,
+    "median_spearman": 0.980141295823244,
+    "min_spearman": 0.9570918688987324
+   },
+   "35": {
+    "median_abs_kcal": 0.623639218083166,
+    "p95_abs_kcal": 1.5864178082670368,
+    "frac_infinite": 0.9977802441731409,
+    "median_spearman": 0.11226279459760641,
+    "min_spearman": 0.058189384896840814
+   }
+  },
+  "linsamp_b500_k1000000": {
+   "1": {
+    "median_abs_kcal": 0.0012507906251337797,
+    "p95_abs_kcal": 0.07248254252686788,
+    "frac_infinite": 0.0013224714346170123,
+    "median_spearman": 0.9999880117008733,
+    "min_spearman": 0.9921369822457747
+   },
+   "3": {
+    "median_abs_kcal": 0.0042461260818651425,
+    "p95_abs_kcal": 0.14906079167491668,
+    "frac_infinite": 0.012571610439210694,
+    "median_spearman": 0.999889776565899,
+    "min_spearman": 0.9887086386925744
+   },
+   "7": {
+    "median_abs_kcal": 0.0216850787859042,
+    "p95_abs_kcal": 0.4356438872052478,
+    "frac_infinite": 0.0724343930019202,
+    "median_spearman": 0.9965906627707881,
+    "min_spearman": 0.9894251024863601
+   },
+   "10": {
+    "median_abs_kcal": 0.04882868385329875,
+    "p95_abs_kcal": 0.6117411485861162,
+    "frac_infinite": 0.183663631494376,
+    "median_spearman": 0.9836011168032961,
+    "min_spearman": 0.9615659649718121
+   },
+   "35": {
+    "median_abs_kcal": 0.7587475751133868,
+    "p95_abs_kcal": 2.0888642735961964,
+    "frac_infinite": 0.9964483906770255,
+    "median_spearman": 0.14082685166528142,
+    "min_spearman": 0.07152080499545535
+   }
+  }
+ }
+}

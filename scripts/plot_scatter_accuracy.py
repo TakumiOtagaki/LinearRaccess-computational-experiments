@@ -3,7 +3,8 @@
 Window accessibility values plotted against Raccess Exact (ground truth), one
 panel per method.
 
-Reads benchmark/results/bprna_accuracy_comparison/{exact,linear_b100,window_w100}
+Reads benchmark/results/bprna_accuracy_capb/{exact,window_w100} and
+bprna_accuracy_dd/linear_b200 (LinearRaccess 0155fa4, beam=200, w in {1,3,7,10,35})
 for the 12,872 sequences in benchmark/data/bprna_100_1000_list.txt (the same
 evidence bundle and sequence set as Table 1 and Figure S1), and writes
 manuscript/figures/figure_scatter_accuracy.pdf.
@@ -33,9 +34,9 @@ plt.rcParams["font.family"] = "serif"
 plt.rcParams["font.serif"] = ["Times New Roman", "Nimbus Roman", "Liberation Serif", "DejaVu Serif"]
 plt.rcParams["font.size"] = 14
 
-EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/exact"
-B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/linear_b100"
-WINDOW_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_comparison/window_w100"
+EXACT_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_capb/exact"
+B100_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_dd/linear_b200"
+WINDOW_DIR = REPO_ROOT / "benchmark/results/bprna_accuracy_capb/window_w100"
 SEQ_LIST = REPO_ROOT / "benchmark/data/bprna_100_1000_list.txt"
 OUTPUT = REPO_ROOT / "manuscript/figures/figure_scatter_accuracy.pdf"
 
@@ -112,7 +113,7 @@ def main() -> int:
     fig, axes = plt.subplots(1, 2, figsize=(12, 4.5))
 
     panels = [
-        (axes[0], exact_lr_arr, lr_arr, "LinearRaccess (beam=100)", "A"),
+        (axes[0], exact_lr_arr, lr_arr, "LinearRaccess (beam=200)", "A"),
         (axes[1], exact_win_arr, win_arr, "Raccess Window (W=100)", "B"),
     ]
 

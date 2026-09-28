@@ -48,8 +48,8 @@ MARKERS = {
     "Raccess Window (W=100)": "^",
 }
 
-MATCHED_DIR = REPO_ROOT / "benchmark/results/bprna_matched_runtime/8714351"
-RACCESS_EXACT_MATCHED_DIR = REPO_ROOT / "benchmark/results/raccess_exact_matched/8715122"
+MATCHED_DIR = REPO_ROOT / "benchmark/results/bprna_matched_runtime_dd/8809622"
+RACCESS_EXACT_MATCHED_DIR = REPO_ROOT / "benchmark/results/raccess_exact_matched_w35/8801137"
 OUTPUT = REPO_ROOT / "manuscript/figures/figure_runtime_memory.pdf"
 
 

@@ -6,7 +6,7 @@ Methodological convergence check, analogous to LinearCapR's Figure 7
 beam width increases, on a genome-scale sequence? Makes no claim about
 which genomic positions are accessible or biologically important.
 
-Reads benchmark/results/sars_cov2_beam_convergence_2026-09-16/out_beam*.txt
+Reads benchmark/results/sars_cov2_beam_convergence_capb/out_beam*.txt (caps tied to the beam)
 (each file's "# ensemble_free_energy_kcal_mol=..." comment line) and writes
 manuscript/figures/figure_sars_cov2_beam_convergence.pdf.
 """
@@ -22,7 +22,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-RESULTS_DIR = REPO_ROOT / "benchmark/results/sars_cov2_beam_convergence_2026-09-16"
+RESULTS_DIR = REPO_ROOT / "benchmark/results/sars_cov2_beam_convergence_capb"
 OUTPUT = REPO_ROOT / "manuscript/figures/figure_sars_cov2_beam_convergence.pdf"
 
 plt.rcParams["font.family"] = "serif"
